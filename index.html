@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adum Brate / Crown Shyness</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Playfair+Display&family=Fira+Code&family=Space+Mono&family=Raleway&family=Quicksand&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: white;
-      font-family: serif;
-      font-size: 20px;
+      background-color: #fdf6e3;
+      font-family: Georgia, Times, serif;
+      font-size: 15px;
       line-height: 1.4;
       color: #000;
       margin: 20px;
@@ -27,9 +28,9 @@
       animation: none;
     }
     a {
-      color: #000;
+      color: inherit;
       text-decoration: none;
-      transition: color 0.3s ease;
+      transition: color 0.3s ease, font-family 0.3s ease;
     }
     a:hover {
       text-decoration: underline;
@@ -45,6 +46,9 @@
     p {
       margin: 6px 0;
     }
+    h1 {
+      transition: color 0.3s ease, font-family 0.3s ease;
+    }
     @media (max-width: 600px) {
       body {
         font-size: 14px;
@@ -57,34 +61,30 @@
   </style>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      const links = document.querySelectorAll('a');
-      links.forEach(link => {
-        link.addEventListener('mouseover', () => {
-          const colors = ['red', 'green', 'blue'];
-          const chosenColor = colors[Math.floor(Math.random() * colors.length)];
-          let r = 0, g = 0, b = 0;
-          if (chosenColor === 'red') {
-            r = Math.floor(150 + Math.random() * 106);
-            g = Math.floor(Math.random() * 100);
-            b = Math.floor(Math.random() * 100);
-          } else if (chosenColor === 'green') {
-            r = Math.floor(Math.random() * 100);
-            g = Math.floor(150 + Math.random() * 106);
-            b = Math.floor(Math.random() * 100);
-          } else {
-            r = Math.floor(Math.random() * 100);
-            g = Math.floor(Math.random() * 100);
-            b = Math.floor(150 + Math.random() * 106);
-          }
-          link.style.color = `rgb(${r}, ${g}, ${b})`;
-        });
+      const fonts = [
+        'Georgia, serif',
+        'Times New Roman, serif',
+        'Arial, sans-serif',
+        'Roboto, sans-serif',
+        'Playfair Display, serif',
+        'Fira Code, monospace',
+        'Space Mono, monospace',
+        'Raleway, sans-serif',
+        'Quicksand, sans-serif'
+      ];
+      const elements = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, a');
+      elements.forEach(el => {
+        const randomFont = fonts[Math.floor(Math.random() * fonts.length)];
+        const blueShade = `rgb(${Math.floor(Math.random()*100)}, ${Math.floor(Math.random()*100)}, ${150 + Math.floor(Math.random()*106)})`;
+        el.style.fontFamily = randomFont;
+        el.style.color = blueShade;
       });
     });
   </script>
 </head>
 <body>
 
-<h2>Adum Brate / Crown Shyness</h2>
+<h1>Adum Brate / Crown Shyness</h1>
 
 <img src="Images/2seeded001.png" alt="Adum Brate Image">
 
