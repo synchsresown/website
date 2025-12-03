@@ -1,420 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="light">
-    <title>Adum Brate / Crown Shyness</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            color-scheme: light;
-        }
-
-        body {
-            overflow: hidden;
-            width: 100vw;
-            height: 100vh;
-            background: #FFFFFF;
-            font-family: Georgia, Times, serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: #000000;
-            color-scheme: light;
-        }
-
-        canvas {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 0;
-        }
-
-        .content-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 50%;
-            height: 100vh;
-            overflow-y: auto;
-            z-index: 1;
-            padding: 40px;
-            background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.25) 40%, rgba(255, 255, 255, 0.1) 80%, rgba(255, 255, 255, 0) 100%);
-            backdrop-filter: blur(3px);
-            -webkit-backdrop-filter: blur(3px);
-            -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 60%, rgba(0, 0, 0, 0.3) 90%, rgba(0, 0, 0, 0) 100%);
-            mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 60%, rgba(0, 0, 0, 0.3) 90%, rgba(0, 0, 0, 0) 100%);
-            color: #000000;
-        }
-
-        .content-overlay::-webkit-scrollbar {
-            display: none;
-        }
-        .content-overlay {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
-
-        .horizontal-links {
-            position: fixed;
-            top: 18%;
-            left: 0;
-            right: 0;
-            z-index: 2;
-            padding: 20px 40px;
-            font-family: Georgia, Times, serif;
-            font-size: 13px;
-            line-height: 1.8;
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-            color: #000000;
-        }
-
-        .horizontal-links .section {
-            display: flex;
-            flex-direction: row;
-            gap: 60px;
-            width: 100%;
-            align-items: flex-start;
-        }
-
-        .horizontal-links .section-title {
-            font-style: italic;
-            background-color: transparent;
-            padding: 4px 10px;
-            font-weight: bold;
-            white-space: nowrap;
-            min-width: 150px;
-            flex-shrink: 0;
-        }
-
-        .horizontal-links .subsections-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 40px 60px;
-            flex: 1;
-        }
-
-        .horizontal-links .subsection {
-            display: inline-block;
-            vertical-align: top;
-            white-space: nowrap;
-            min-width: 200px;
-        }
-
-        .horizontal-links .subsection-title {
-            font-size: 11px;
-            font-style: italic;
-            margin-bottom: 8px;
-            padding: 2px 6px;
-            display: block;
-            opacity: 0.8;
-        }
-
-        .horizontal-links p {
-            margin: 0;
-            padding: 0;
-            background-color: transparent;
-            white-space: nowrap;
-        }
-
-        .horizontal-links a {
-            color: #000000;
-            text-decoration: none;
-            padding: 2px 6px;
-            background-color: transparent;
-            transition: background-color 1s ease;
-            display: inline-block;
-        }
-
-        .horizontal-links a:hover {
-            background-color: #fff89a;
-            color: #000000;
-            transition: background-color 0s;
-            text-decoration: underline;
-        }
-
-        .horizontal-links span {
-            background-color: transparent;
-        }
-
-        .content-overlay a {
-            color: #000000;
-            text-decoration: none;
-            display: inline-block;
-            padding: 2px 4px;
-            background-color: transparent;
-            transition: background-color 1s ease;
-        }
-
-        .content-overlay a:hover {
-            background-color: #fff89a;
-            color: #000000;
-            transition: background-color 0s;
-            text-decoration: underline;
-        }
-
-        .section {
-            margin-bottom: 30px;
-        }
-
-        .section-title {
-            font-size: 1em;
-            font-style: italic;
-            margin-bottom: 10px;
-            padding-left: 0;
-        }
-
-        .section p {
-            padding-left: 20px;
-            margin: 5px 0;
-        }
-
-        p, h1 {
-            margin: 10px 0;
-            color: #000000;
-        }
-
-        @media (max-width: 900px) {
-            .content-overlay {
-                width: 100%;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adum Brate / Crown Shyness</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #FFFFFF;
+      font-family: Georgia, Times, serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #000;
+      margin: 20px;
+      padding: 0;
+      max-width: 900px;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+      display: inline-block;
+      padding: 2px 4px;
+      background-color: transparent;
+      transition: background-color 1s ease;
+    }
+    a:hover {
+      background-color: #fff89a;
+      transition: background-color 0s;
+      text-decoration: underline;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section-title {
+      font-size: 1em;
+      font-style: italic;
+      margin-bottom: 10px;
+      padding-left: 0;
+    }
+    .section p {
+      padding-left: 20px;
+      margin: 5px 0;
+    }
+    p, h1 {
+      margin: 10px 0;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 14px;
+        margin: 10px;
+      }
+      h1 {
+        font-size: 1.5em;
+      }
+      .section-title {
+        font-size: 1em;
+      }
+    }
+  </style>
 </head>
 <body>
-    <canvas id="roadCanvas"></canvas>
 
-    <div class="horizontal-links">
-        <div class="section">
-            <div class="subsections-container">
-                <div class="subsection">
-                    <div class="subsection-title">Albums & EPs</div>
-                    <p><a href="https://soundcloud.com/quantum_natives/sets/adum-brate-last-days-in-a">Adum Brate - Last Days in a Lonely Place [QNR045]</a></p>
-                    <p><a href="https://absurdtrax.bandcamp.com/album/stunt-double-at-023">Crown Shyness - Stunt Double [AT-023]</a></p>
-                    <p><a href="https://surf.bandcamp.com/album/credence">Adum Brate - Credence [surf010]</a></p>
-                    <p><a href="https://expressionless.bandcamp.com/album/checkin-up-on-curly-vince">Adum Brate - Checkin' Up On Curly Vince [EO.19]</a></p>
-                    <p><a href="https://soundcloud.com/quantum_natives/sets/crown-shyness-isonautics">Crown Shyness - Isonautics Remixed [QNRX024]</a></p>
-                    <p><a href="http://www.mediafire.com/file/srrbwu4irzs1ymi/Crown_Shyness_-_Isonautics_%2528QNR024%2529.zip/file">Crown Shyness - Isonautics [QNR024]</a></p>
-                </div>
-                <div class="subsection">
-                    <div class="subsection-title">Singles</div>
-                    <p><a href="https://www.ninaprotocol.com/releases/adum-brate-light-leaks">Adum Brate - Light Leaks</a></p>
-                    <p><a href="https://www.ninaprotocol.com/releases/adum-brate-he-fell-down">Adum Brate - He Fell Down</a></p>
-                    <p><a href="https://on.soundcloud.com/cUynh">Adum Brate - Hamster Vision</a></p>
-                    <p><a href="https://on.soundcloud.com/DYKBk">Adum Brate - Pluck</a></p>
-                    <p><a href="https://www.ninaprotocol.com/releases/creaky-vine-music-for-182-musicians">Creaky Vine - Music for 182 Musicians</a></p>
-                </div>
-                <div class="subsection">
-                    <div class="subsection-title">Mixes</div>
-                    <p><a href="https://soundcloud.com/adum_brate/house-edge">House Edge</a></p>
-                    <p><a href="https://on.soundcloud.com/gcTAnk1CbZmYaGVXMX">The Walkable City Experience ep04: Queens</a></p>
-                    <p><a href="https://soundcloud.com/adum_brate/snake-eyes">Snake Eyes</a></p>
-                    <p><a href="https://on.soundcloud.com/fjpkQwXBu1H6hehA6">iN Unison w/ Adum Brate (24/07/24)</a></p>
-                    <p><a href="https://soundcloud.com/adum_brate/the-gun-pointed-at-the-head-of-the-universe">The Gun Pointed at the Head of the Universe</a></p>
-                    <p><a href="https://soundcloud.com/madjestickasual/adum-brate-a-mix">Adum Brate: A Mix</a></p>
-                    <p><a href="https://soundcloud.com/augendaddend/aa-adum-brate-02">A&A: Adum Brate [02]</a></p>
-                    <p><a href="https://soundcloud.com/hkcrlive/absurd-trax-w-crown-shyness-25082021">Absurd TRAX w/ Crown Shyness</a></p>
-                    <p><a href="https://soundcloud.com/crownshyness/jerome-mixfile-086-crown-shyness">JEROME Mixfile #086 - Crown Shyness</a></p>
-                </div>
-                <div class="subsection">
-                    <div class="subsection-title">Compilations</div>
-                    <p><a href="https://primordialvoid.bandcamp.com/album/primordial-energy">Primordial Energy [PV-51]</a></p>
-                    <p><a href="https://tobagotracks.bandcamp.com/album/through-the-fire-and-flames">Through the Fire and Flames</a></p>
-                    <p><a href="https://inunison.bandcamp.com/album/tales-of-vol-1">Tales Of, Vol. 1</a></p>
-                    <p><a href="https://quantumnatives.bandcamp.com/album/nu-horizons">Nu Horizons [QNKK001]</a></p>
-                    <p><a href="http://vg.pe.hu/compilation/04/">Very Gois #4</a></p>
-                </div>
-                <div class="subsection">
-                    <div class="subsection-title">Music Videos</div>
-                    <p><a href="https://youtu.be/HPT3gnr4x40">Adum Brate - He Fell Down [MK MV PREMIERE]</a></p>
-                    <p><a href="https://www.youtube.com/watch?v=qEoRluaZM4g">Adum Brate - Laytonville</a></p>
-                    <p><a href="https://youtu.be/pgurUcMHEPA">Crown Shyness - Glacial Romance</a></p>
-                </div>
-                <div class="subsection">
-                    <div class="subsection-title">Film & Performance</div>
-                    <p><a href="https://www.instagram.com/p/DO8oUrojqg6/">THE DELIVERYBOY</a>{edit & score}</p>
-                    <p><a href="https://youtu.be/E8HrlRZeesw?si=EtBEwnsoQ_gXQ3u1">Buckets: A Film About Hats</a>{edit & score}</p>
-                    <p><a href="https://www.julibrandano.com/ordinary-time">Ordinary Time</a>{sound design}</p>
-                    <p><a href="https://www.youtube.com/watch?v=f9Ec-4ESdgk">Bronze Dog</a>{edit & score}</p>
-                    <p><a href="https://www.dulcinee.fyi/smoking-kills">Smoking Kills</a>{score}</p>
-                    <p><a href="https://vimeo.com/jcrs">Various Works of Theodore Darst</a>{score}</p>
-                </div>
-            </div>
-        </div>
-    </div>
+<h1>Adum Brate (& more) </h1>
 
-    <div class="content-overlay">
-        <h1>Adum Brate (& more) </h1>
+<img src="Images/2seeded001.png" alt="Adum Brate Image">
 
-        <p><strong><a href="https://www.ninaprotocol.com/hubs/synchsresown">Nina</a></strong> |
-        <strong><a href="https://soundcloud.com/adum_brate">Soundcloud</a></strong> |
-        <strong><a href="https://www.youtube.com/@a-mute-bard">YouTube</a></strong> |
-        <strong><a href="https://bucketsmusic.org"><span style="color: red">Buckets</span></a></strong>
-        </p>
-    </div>
+<p><strong><a href="https://www.ninaprotocol.com/hubs/synchsresown">Nina</a></strong> |
+<strong><a href="https://soundcloud.com/adum_brate">Soundcloud</a></strong> |
+<strong><a href="https://www.youtube.com/@a-mute-bard">YouTube</a></strong> |
+<strong><a href="https://bucketsmusic.org"><span style="color: red">Buckets<span></a></strong>
+</p>
 
-    <script>
-        const canvas = document.getElementById('roadCanvas');
-        const ctx = canvas.getContext('2d');
+<br>
 
-        function resizeCanvas() {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-        }
-        resizeCanvas();
-        window.addEventListener('resize', resizeCanvas);
+<div class="section">
+  <div class="section-title">Film & Performance</div>
+  <!-- 2025 -->
+  <p><a href="https://www.instagram.com/p/DO8oUrojqg6/">THE DELIVERYBOY</a>{<span style="color: darkorange;">edit</span> & <span style="color: blue;">score</span>}</p>
+  <p><a href="https://youtu.be/E8HrlRZeesw?si=EtBEwnsoQ_gXQ3u1">Buckets: A Film About Hats</a>{<span style="color: darkorange;">edit</span> & <span style="color: blue;">score</span>}</p>
+  <!-- 2024 -->
+  <p><a href="https://www.julibrandano.com/ordinary-time">Ordinary Time</a>{<span style="color: forestgreen;">sound design</span>}</p>
+  <p><a href="https://www.youtube.com/watch?v=f9Ec-4ESdgk">Bronze Dog</a>{<span style="color: darkorange;">edit</span> & <span style="color: blue;">score</span>}</p>
+  <!-- 2023 -->
+  <p><a href="https://www.dulcinee.fyi/smoking-kills">Smoking Kills</a>{<span style="color: blue;">score</span>}</p>
+  <!-- before -->
+  <p><a href="https://vimeo.com/jcrs">Various Works of Theodore Darst</a>{<span style="color: blue;">score</span>}</p>
+</div>
 
-        let offset = 0;
-        const speed = 2;
+<div class="section">
+  <div class="section-title">Music</div>
+  <!-- album/ep -->
+  <p><a href="https://soundcloud.com/quantum_natives/sets/adum-brate-last-days-in-a">Adum Brate - Last Days in a Lonely Place [QNR045]</a>{<span style="color: red">album</span>}</p>
+  <p><a href="https://absurdtrax.bandcamp.com/album/stunt-double-at-023">Crown Shyness - Stunt Double [AT-023]</a>{<span style="color: red">album</span>}</p>
+  <p><a href="https://surf.bandcamp.com/album/credence">Adum Brate - Credence [surf010]</a>{<span style="color: lightpink;">ep</span>}</p>
+  <p><a href="https://expressionless.bandcamp.com/album/checkin-up-on-curly-vince">Adum Brate - Checkin' Up On Curly Vince [EO.19]</a>{<span style="color: red">album</span>}</p>
+  <p><a href="https://soundcloud.com/quantum_natives/sets/crown-shyness-isonautics">Crown Shyness - Isonautics Remixed [QNRX024]</a>{<span style="color: red">album</span>}</p>
+  <p><a href="http://www.mediafire.com/file/srrbwu4irzs1ymi/Crown_Shyness_-_Isonautics_%2528QNR024%2529.zip/file">Crown Shyness - Isonautics [QNR024]</a>{<span style="color: red">album</span>}</p>
+  
+  <!-- singles -->
+  <p><a href="https://www.ninaprotocol.com/releases/adum-brate-light-leaks">Adum Brate - Light Leaks</a>{<span style="color: skyblue;">single</span>}</p>
+  <p><a href="https://www.ninaprotocol.com/releases/adum-brate-he-fell-down">Adum Brate - He Fell Down</a>{<span style="color: skyblue;">single</span>}</p>
+  <p><a href="https://on.soundcloud.com/cUynh">Adum Brate - Hamster Vision</a>{<span style="color: skyblue;">single</span>}</p>
+  <p><a href="https://on.soundcloud.com/DYKBk">Adum Brate - Pluck</a>{<span style="color: skyblue;">single</span>}</p>
+  <p><a href="https://www.ninaprotocol.com/releases/creaky-vine-music-for-182-musicians">Creaky Vine - Music for 182 Musicians</a>{<span style="color: skyblue;">single</span>}</p>
+  
+  <!-- mix -->  
+  <p><a href="https://soundcloud.com/adum_brate/house-edge">House Edge</a>{<span style="color: seagreen;">mix</span>}</p>
+  <p><a href="https://on.soundcloud.com/gcTAnk1CbZmYaGVXMX">The Walkable City Experience ep04: Queens</a>{<span style="color: seagreen;">mix</span>}</p>
+  <p><a href="https://soundcloud.com/adum_brate/snake-eyes">Snake Eyes</a>{<span style="color: seagreen;">mix</span>}</p>
+  <p><a href="https://on.soundcloud.com/fjpkQwXBu1H6hehA6">iN Unison w/ Adum Brate (24/07/24)</a>{<span style="color: seagreen;">mix</span>}</p>
+  <p><a href="https://soundcloud.com/adum_brate/the-gun-pointed-at-the-head-of-the-universe">The Gun Pointed at the Head of the Universe</a>{<span style="color: seagreen;">mix</span>}</p>
+  <p><a href="https://soundcloud.com/madjestickasual/adum-brate-a-mix">Adum Brate: A Mix</a>{<span style="color: seagreen;">mix</span>}</p>
+  <p><a href="https://soundcloud.com/augendaddend/aa-adum-brate-02">A&A: Adum Brate [02]</a>{<span style="color: seagreen;">mix</span>}</p>
+  <p><a href="https://soundcloud.com/hkcrlive/absurd-trax-w-crown-shyness-25082021">Absurd TRAX w/ Crown Shyness</a>{<span style="color: seagreen;">mix</span>}</p> 
+  <p><a href="https://soundcloud.com/crownshyness/jerome-mixfile-086-crown-shyness">JEROME Mixfile #086 - Crown Shyness</a>{<span style="color: seagreen;">mix</span>}</p>
+    
+  <!-- comps -->  
+  <p><a href="https://primordialvoid.bandcamp.com/album/primordial-energy">Primordial Energy [PV-51]</a>{<span style="color: mediumpurple;">compilation</span>}</p>
+  <p><a href="https://tobagotracks.bandcamp.com/album/through-the-fire-and-flames">Through the Fire and Flames</a>{<span style="color: mediumpurple;">compilation</span>}</p>
+  <p><a href="https://inunison.bandcamp.com/album/tales-of-vol-1">Tales Of, Vol. 1</a>{<span style="color: mediumpurple;">compilation</span>}</p>
+  <p><a href="https://quantumnatives.bandcamp.com/album/nu-horizons">Nu Horizons [QNKK001]</a>{<span style="color: mediumpurple;">compilation</span>}</p>
+  <p><a href="http://vg.pe.hu/compilation/04/">Very Gois #4</a>{<span style="color: mediumpurple;">compilation</span>}</p>
+  
+  <!-- music videos -->  
+  <p><a href="https://youtu.be/HPT3gnr4x40">Adum Brate - He Fell Down [MK MV PREMIERE]</a>{<span style="color: orange;">music video</span>}</p>
+  <p><a href="https://www.youtube.com/watch?v=qEoRluaZM4g">Adum Brate - Laytonville</a>{<span style="color: orange;">music video</span>}</p>
+  <p><a href="https://youtu.be/pgurUcMHEPA">Crown Shyness - Glacial Romance</a>{<span style="color: orange;">music video</span>}</p>
+</div>
 
-        const dashLength = 40;
-        const dashGap = 80;
-        const numLanes = 12;
+<img src="Images/2seeded002.png" alt="Crown Shyness Image">
 
-        function drawScene() {
-            const width = canvas.width;
-            const height = canvas.height;
-
-            ctx.fillStyle = '#FFFFFF';
-            ctx.fillRect(0, 0, width, height);
-
-            const linksElement = document.querySelector('.horizontal-links');
-            const linksBottom = linksElement ? linksElement.offsetTop + linksElement.offsetHeight : height * 0.55;
-            const minRoadSpace = height * 0.35;
-            const maxHorizonY = height - minRoadSpace;
-            const horizonY = Math.min(Math.max(linksBottom + 40, height * 0.55), maxHorizonY);
-
-            ctx.fillStyle = '#F5F5F5';
-            ctx.fillRect(0, horizonY, width, height - horizonY);
-
-            const roadTop = horizonY;
-            const roadBottom = height;
-            const roadTopWidth = width * 0.01;
-            const roadBottomWidth = width * 0.8;
-
-            ctx.strokeStyle = '#CCCCCC';
-            ctx.lineWidth = 3;
-            ctx.beginPath();
-            ctx.moveTo(width / 2 - roadTopWidth / 2, roadTop);
-            ctx.lineTo(width / 2 + roadTopWidth / 2, roadTop);
-            ctx.lineTo(width / 2 + roadBottomWidth / 2, roadBottom);
-            ctx.lineTo(width / 2 - roadBottomWidth / 2, roadBottom);
-            ctx.closePath();
-            ctx.stroke();
-
-            ctx.strokeStyle = '#999999';
-            ctx.lineJoin = 'miter';
-
-            for (let i = 0; i < numLanes; i++) {
-                const progress = (i / numLanes) + (offset / (dashLength + dashGap)) / numLanes;
-                const normalizedProgress = (progress % 1);
-
-                const y1 = roadTop + (roadBottom - roadTop) * normalizedProgress;
-
-                if (y1 > roadBottom) continue;
-
-                const perspectiveDashLength = dashLength * (0.3 + normalizedProgress * 0.5);
-                const dashHeight = Math.min(perspectiveDashLength, roadBottom - y1);
-
-                const widthAtY = roadTopWidth + (roadBottomWidth - roadTopWidth) * normalizedProgress;
-
-                const dashWidth = 4 + normalizedProgress * 8;
-                const x = width / 2 - dashWidth / 2;
-
-                ctx.lineWidth = 2;
-
-                ctx.strokeRect(x, y1, dashWidth, dashHeight);
-            }
-            const mirrorX = width * 0.35;
-            const mirrorY = height * 0.05;
-            const mirrorWidth = width * 0.3;
-            const mirrorHeight = height * 0.1;
-            const mirrorRadius = 8;
-
-            ctx.save();
-
-            ctx.beginPath();
-            ctx.roundRect(mirrorX, mirrorY, mirrorWidth, mirrorHeight, mirrorRadius);
-            ctx.clip();
-
-            ctx.fillStyle = '#FFFFFF';
-            ctx.fillRect(mirrorX, mirrorY, mirrorWidth, mirrorHeight);
-
-            const mirrorHorizonY = mirrorY + mirrorHeight * 0.4;
-            ctx.fillStyle = '#F5F5F5';
-            ctx.fillRect(mirrorX, mirrorHorizonY, mirrorWidth, mirrorHeight - (mirrorHorizonY - mirrorY));
-
-            const mirrorRoadTop = mirrorHorizonY;
-            const mirrorRoadBottom = mirrorY + mirrorHeight;
-            const mirrorRoadTopWidth = mirrorWidth * 0.01;
-            const mirrorRoadBottomWidth = mirrorWidth * 0.65;
-
-            ctx.strokeStyle = '#CCCCCC';
-            ctx.lineWidth = 1.5;
-            ctx.beginPath();
-            ctx.moveTo(mirrorX + mirrorWidth / 2 - mirrorRoadTopWidth / 2, mirrorRoadTop);
-            ctx.lineTo(mirrorX + mirrorWidth / 2 + mirrorRoadTopWidth / 2, mirrorRoadTop);
-            ctx.lineTo(mirrorX + mirrorWidth / 2 + mirrorRoadBottomWidth / 2, mirrorRoadBottom);
-            ctx.lineTo(mirrorX + mirrorWidth / 2 - mirrorRoadBottomWidth / 2, mirrorRoadBottom);
-            ctx.closePath();
-            ctx.stroke();
-
-            ctx.strokeStyle = '#999999';
-            ctx.lineJoin = 'miter';
-
-            for (let i = 0; i < 5; i++) {
-                const mirrorProgress = (i / 5) + (offset / (dashLength + dashGap)) / 5;
-                const mirrorNormalizedProgress = (mirrorProgress % 1);
-
-                const my1 = mirrorRoadTop + (mirrorRoadBottom - mirrorRoadTop) * (1 - mirrorNormalizedProgress);
-
-                if (mirrorNormalizedProgress > 0.9) continue;
-
-                const mirrorDashHeight = (dashLength * 0.08) * (1 - (1 - mirrorNormalizedProgress) * 0.7);
-                const my2 = Math.max(my1 - mirrorDashHeight, mirrorRoadTop);
-
-                const mirrorDashWidth = 1.5 + (1 - mirrorNormalizedProgress) * 4;
-                const mx = mirrorX + mirrorWidth / 2 - mirrorDashWidth / 2;
-
-                ctx.lineWidth = 1;
-
-                ctx.strokeRect(mx, my2, mirrorDashWidth, my1 - my2);
-            }
-
-            ctx.restore();
-
-            ctx.strokeStyle = 'rgba(40, 40, 40, 0.95)';
-            ctx.lineWidth = 6;
-            ctx.beginPath();
-            ctx.roundRect(mirrorX, mirrorY, mirrorWidth, mirrorHeight, mirrorRadius);
-            ctx.stroke();
-
-            ctx.fillStyle = 'rgba(40, 40, 40, 0.95)';
-            const mountWidth = 12;
-            ctx.fillRect(mirrorX + mirrorWidth / 2 - mountWidth / 2, 0, mountWidth, mirrorY);
-        }
-
-        function animate() {
-            offset += speed;
-            if (offset > dashLength + dashGap) {
-                offset = 0;
-            }
-
-            drawScene();
-            requestAnimationFrame(animate);
-        }
-
-        animate();
-    </script>
 </body>
 </html>
