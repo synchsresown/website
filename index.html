@@ -5,8 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="light">
     <title>Adum Brate / Crown Shyness</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <style>
+        :root {
+            /* Colors */
+            --color-white: #FFFFFF;
+            --color-black: #000000;
+            --color-gray-light: #F5F5F5;
+            --color-hover: #fff89a;
+            --color-red: red;
+            
+            /* Spacing */
+            --spacing-xs: 2px;
+            --spacing-sm: 4px;
+            --spacing-md: 10px;
+            --spacing-lg: 20px;
+            --spacing-xl: 40px;
+            --spacing-xxl: 60px;
+            
+            /* Typography */
+            --font-family: Georgia, Times, serif;
+            --font-size-base: 16px;
+            --font-size-small: 13px;
+            --font-size-tiny: 11px;
+            --line-height-base: 1.6;
+            --line-height-tight: 1.8;
+            
+            /* Layout */
+            --spacer-height: 120px;
+            --spacer-height-mobile: 80px;
+            --padding-content: 20px 40px 10px 40px;
+            --padding-content-mobile: 20px;
+            --padding-links: 20px 40px;
+            --padding-links-mobile: 20px;
+            --gap-section: 30px;
+            --gap-subsections: 40px 60px;
+            --gap-subsections-mobile: 30px;
+            
+            /* Effects */
+            --backdrop-blur: blur(5px);
+            --backdrop-opacity: rgba(255, 255, 255, 0.25);
+            --transition-slow: background-color 1s ease;
+            --transition-fast: background-color 0s;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -22,21 +63,19 @@
             overflow-x: hidden;
             width: 100vw;
             min-height: 100vh;
-            background: #FFFFFF;
-            font-family: Georgia, Times, serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: #000000;
+            background: var(--color-white);
+            font-family: var(--font-family);
+            font-size: var(--font-size-base);
+            line-height: var(--line-height-base);
+            color: var(--color-black);
             color-scheme: light;
-            padding-bottom: 60px;
+            padding-bottom: var(--spacing-xxl);
+            -ms-overflow-style: none;
+            scrollbar-width: none;
         }
 
         body::-webkit-scrollbar {
             display: none;
-        }
-        body {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
         }
 
         canvas {
@@ -50,7 +89,7 @@
         }
 
         .spacer {
-            height: 120px;
+            height: var(--spacer-height);
             width: 100%;
         }
 
@@ -58,28 +97,28 @@
             position: relative;
             width: 100%;
             z-index: 1;
-            padding: 20px 40px 10px 40px;
-            background: rgba(255, 255, 255, 0.25);
-            backdrop-filter: blur(5px);
-            -webkit-backdrop-filter: blur(5px);
-            color: #000000;
-            margin-bottom: 20px;
+            padding: var(--padding-content);
+            background: var(--backdrop-opacity);
+            backdrop-filter: var(--backdrop-blur);
+            -webkit-backdrop-filter: var(--backdrop-blur);
+            color: var(--color-black);
+            margin-bottom: var(--spacing-lg);
         }
 
         .horizontal-links {
             position: relative;
             z-index: 1;
-            padding: 20px 40px;
-            font-family: Georgia, Times, serif;
-            font-size: 13px;
-            line-height: 1.8;
+            padding: var(--padding-links);
+            font-family: var(--font-family);
+            font-size: var(--font-size-small);
+            line-height: var(--line-height-tight);
             display: flex;
             flex-direction: column;
-            gap: 30px;
-            color: #000000;
-            background: rgba(255, 255, 255, 0.25);
-            backdrop-filter: blur(5px);
-            -webkit-backdrop-filter: blur(5px);
+            gap: var(--gap-section);
+            color: var(--color-black);
+            background: var(--backdrop-opacity);
+            backdrop-filter: var(--backdrop-blur);
+            -webkit-backdrop-filter: var(--backdrop-blur);
         }
 
         .horizontal-links .section {
@@ -103,7 +142,7 @@
         .horizontal-links .subsections-container {
             display: flex;
             flex-wrap: wrap;
-            gap: 40px 60px;
+            gap: var(--gap-subsections);
             flex: 1;
         }
 
@@ -115,10 +154,10 @@
         }
 
         .horizontal-links .subsection-title {
-            font-size: 11px;
+            font-size: var(--font-size-tiny);
             font-style: italic;
             margin-bottom: 8px;
-            padding: 2px 6px;
+            padding: var(--spacing-xs) 6px;
             display: block;
             opacity: 0.8;
         }
@@ -130,61 +169,41 @@
             white-space: nowrap;
         }
 
-        .horizontal-links a {
-            color: #000000;
+        /* Shared link styles */
+        a {
+            color: var(--color-black);
             text-decoration: none;
-            padding: 2px 6px;
             background-color: transparent;
-            transition: background-color 1s ease;
+            transition: var(--transition-slow);
             display: inline-block;
         }
 
-        .horizontal-links a:hover {
-            background-color: #fff89a;
-            color: #000000;
-            transition: background-color 0s;
+        a:hover {
+            background-color: var(--color-hover);
+            color: var(--color-black);
+            transition: var(--transition-fast);
             text-decoration: underline;
+        }
+
+        .horizontal-links a {
+            padding: var(--spacing-xs) 6px;
+        }
+
+        .content-overlay a {
+            padding: var(--spacing-xs) var(--spacing-sm);
+        }
+
+        .link-red {
+            color: var(--color-red);
         }
 
         .horizontal-links span {
             background-color: transparent;
         }
 
-        .content-overlay a {
-            color: #000000;
-            text-decoration: none;
-            display: inline-block;
-            padding: 2px 4px;
-            background-color: transparent;
-            transition: background-color 1s ease;
-        }
-
-        .content-overlay a:hover {
-            background-color: #fff89a;
-            color: #000000;
-            transition: background-color 0s;
-            text-decoration: underline;
-        }
-
-        .section {
-            margin-bottom: 30px;
-        }
-
-        .section-title {
-            font-size: 1em;
-            font-style: italic;
-            margin-bottom: 10px;
-            padding-left: 0;
-        }
-
-        .section p {
-            padding-left: 20px;
-            margin: 5px 0;
-        }
-
         p, h1 {
-            margin: 10px 0;
-            color: #000000;
+            margin: var(--spacing-md) 0;
+            color: var(--color-black);
         }
 
         @media (max-width: 768px) {
@@ -193,20 +212,20 @@
             }
 
             .spacer {
-                height: 80px;
+                height: var(--spacer-height-mobile);
             }
 
             .content-overlay {
-                padding: 20px;
+                padding: var(--padding-content-mobile);
             }
 
             .horizontal-links {
-                padding: 20px;
+                padding: var(--padding-links-mobile);
             }
 
             .horizontal-links .subsections-container {
                 flex-direction: column;
-                gap: 30px;
+                gap: var(--gap-subsections-mobile);
             }
 
             .horizontal-links .subsection {
@@ -231,21 +250,24 @@
     </style>
 </head>
 <body>
-    <canvas id="roadCanvas"></canvas>
+    <canvas id="roadCanvas" aria-label="Animated road scene with rearview mirror"></canvas>
 
     <div class="spacer"></div>
 
-    <div class="content-overlay">
-        <h1>Adum Brate (& more) </h1>
+    <main>
+        <header class="content-overlay">
+            <h1>Adum Brate</h1>
 
-        <p><strong><a href="https://www.ninaprotocol.com/hubs/synchsresown">Nina</a></strong> |
-        <strong><a href="https://soundcloud.com/adum_brate">Soundcloud</a></strong> |
-        <strong><a href="https://www.youtube.com/@a-mute-bard">YouTube</a></strong> |
-        <strong><a href="https://bucketsmusic.org"><span style="color: red">Buckets</span></a></strong>
-        </p>
-    </div>
+            <nav>
+                <p><strong><a href="https://www.ninaprotocol.com/hubs/synchsresown" aria-label="Visit Nina Protocol profile">Nina</a></strong> |
+                <strong><a href="https://soundcloud.com/adum_brate" aria-label="Visit SoundCloud profile">Soundcloud</a></strong> |
+                <strong><a href="https://www.youtube.com/@a-mute-bard" aria-label="Visit YouTube channel">YouTube</a></strong> |
+                <strong><a href="https://bucketsmusic.org" aria-label="Visit Buckets Music website"><span class="link-red">Buckets</span></a></strong>
+                </p>
+            </nav>
+        </header>
 
-    <div class="horizontal-links">
+        <section class="horizontal-links" aria-label="Music releases and projects">
         <div class="section">
             <div class="subsections-container">
                 <div class="subsection">
@@ -302,46 +324,105 @@
                 </div>
             </div>
         </div>
-    </div>
+        </section>
+    </main>
 
     <script>
+        // Canvas setup
         const canvas = document.getElementById('roadCanvas');
         const ctx = canvas.getContext('2d');
+
+        // Animation constants
+        const ANIMATION_SPEED = 2;
+        const DASH_LENGTH = 40;
+        const DASH_GAP = 80;
+        const NUM_LANES = 12;
+        const MIRROR_LANES = 5;
+        const MOBILE_BREAKPOINT = 768;
+
+        // Road perspective constants
+        const HORIZON_RATIO = 0.5;
+        const ROAD_TOP_WIDTH_RATIO = 0.01;
+        const ROAD_BOTTOM_WIDTH_RATIO = 0.8;
+        const ROAD_EDGE_COLOR = '#CCCCCC';
+        const ROAD_EDGE_WIDTH = 3;
+        const DASH_COLOR = '#999999';
+        const DASH_WIDTH_MIN = 4;
+        const DASH_WIDTH_MAX = 8;
+        const DASH_PERSPECTIVE_MIN = 0.3;
+        const DASH_PERSPECTIVE_MAX = 0.5;
+
+        // Mirror constants
+        const MIRROR_X_MOBILE = 0.25;
+        const MIRROR_X_DESKTOP = 0.35;
+        const MIRROR_Y_MOBILE = 15;
+        const MIRROR_Y_DESKTOP = 20;
+        const MIRROR_WIDTH_MOBILE = 0.5;
+        const MIRROR_WIDTH_DESKTOP = 0.3;
+        const MIRROR_HEIGHT_MOBILE = 50;
+        const MIRROR_HEIGHT_DESKTOP = 80;
+        const MIRROR_RADIUS_MOBILE = 6;
+        const MIRROR_RADIUS_DESKTOP = 8;
+        const MIRROR_HORIZON_RATIO = 0.4;
+        const MIRROR_ROAD_TOP_WIDTH_RATIO = 0.01;
+        const MIRROR_ROAD_BOTTOM_WIDTH_RATIO = 0.65;
+        const MIRROR_EDGE_WIDTH = 1.5;
+        const MIRROR_DASH_HEIGHT_BASE = 0.08;
+        const MIRROR_DASH_HEIGHT_SCALE = 0.7;
+        const MIRROR_DASH_WIDTH_MIN = 1.5;
+        const MIRROR_DASH_WIDTH_MAX = 4;
+        const MIRROR_DASH_PROGRESS_THRESHOLD = 0.9;
+        const MIRROR_FRAME_COLOR = 'rgba(40, 40, 40, 0.95)';
+        const MIRROR_FRAME_WIDTH_MOBILE = 4;
+        const MIRROR_FRAME_WIDTH_DESKTOP = 6;
+        const MIRROR_MOUNT_WIDTH_MOBILE = 8;
+        const MIRROR_MOUNT_WIDTH_DESKTOP = 12;
+
+        // Color constants
+        const COLOR_WHITE = '#FFFFFF';
+        const COLOR_GRAY_LIGHT = '#F5F5F5';
+
+        let offset = 0;
 
         function resizeCanvas() {
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
         }
         resizeCanvas();
-        window.addEventListener('resize', resizeCanvas);
 
-        let offset = 0;
-        const speed = 2;
-
-        const dashLength = 40;
-        const dashGap = 80;
-        const numLanes = 12;
+        // Throttle resize events for better performance
+        let resizeTimeout;
+        function handleResize() {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(() => {
+                resizeCanvas();
+            }, 100);
+        }
+        window.addEventListener('resize', handleResize);
 
         function drawScene() {
             const width = canvas.width;
             const height = canvas.height;
-            const isMobile = width <= 768;
+            const isMobile = width <= MOBILE_BREAKPOINT;
 
-            ctx.fillStyle = '#FFFFFF';
+            // Draw sky
+            ctx.fillStyle = COLOR_WHITE;
             ctx.fillRect(0, 0, width, height);
 
-            const horizonY = height * 0.5;
+            const horizonY = height * HORIZON_RATIO;
 
-            ctx.fillStyle = '#F5F5F5';
+            // Draw ground
+            ctx.fillStyle = COLOR_GRAY_LIGHT;
             ctx.fillRect(0, horizonY, width, height - horizonY);
 
+            // Draw road outline
             const roadTop = horizonY;
             const roadBottom = height;
-            const roadTopWidth = width * 0.01;
-            const roadBottomWidth = width * 0.8;
+            const roadTopWidth = width * ROAD_TOP_WIDTH_RATIO;
+            const roadBottomWidth = width * ROAD_BOTTOM_WIDTH_RATIO;
 
-            ctx.strokeStyle = '#CCCCCC';
-            ctx.lineWidth = 3;
+            ctx.strokeStyle = ROAD_EDGE_COLOR;
+            ctx.lineWidth = ROAD_EDGE_WIDTH;
             ctx.beginPath();
             ctx.moveTo(width / 2 - roadTopWidth / 2, roadTop);
             ctx.lineTo(width / 2 + roadTopWidth / 2, roadTop);
@@ -350,56 +431,61 @@
             ctx.closePath();
             ctx.stroke();
 
-            ctx.strokeStyle = '#999999';
+            // Draw road dashes
+            ctx.strokeStyle = DASH_COLOR;
             ctx.lineJoin = 'miter';
+            ctx.lineWidth = 2;
 
-            for (let i = 0; i < numLanes; i++) {
-                const progress = (i / numLanes) + (offset / (dashLength + dashGap)) / numLanes;
+            for (let i = 0; i < NUM_LANES; i++) {
+                const progress = (i / NUM_LANES) + (offset / (DASH_LENGTH + DASH_GAP)) / NUM_LANES;
                 const normalizedProgress = (progress % 1);
 
                 const y1 = roadTop + (roadBottom - roadTop) * normalizedProgress;
 
                 if (y1 > roadBottom) continue;
 
-                const perspectiveDashLength = dashLength * (0.3 + normalizedProgress * 0.5);
+                // Calculate dash height with perspective
+                const perspectiveDashLength = DASH_LENGTH * (DASH_PERSPECTIVE_MIN + normalizedProgress * (DASH_PERSPECTIVE_MAX - DASH_PERSPECTIVE_MIN));
                 const dashHeight = Math.min(perspectiveDashLength, roadBottom - y1);
 
-                const widthAtY = roadTopWidth + (roadBottomWidth - roadTopWidth) * normalizedProgress;
-
-                const dashWidth = 4 + normalizedProgress * 8;
+                // Calculate dash width with perspective
+                const dashWidth = DASH_WIDTH_MIN + normalizedProgress * (DASH_WIDTH_MAX - DASH_WIDTH_MIN);
                 const x = width / 2 - dashWidth / 2;
-
-                ctx.lineWidth = 2;
 
                 ctx.strokeRect(x, y1, dashWidth, dashHeight);
             }
 
-            const mirrorX = isMobile ? width * 0.25 : width * 0.35;
-            const mirrorY = isMobile ? 15 : 20;
-            const mirrorWidth = isMobile ? width * 0.5 : width * 0.3;
-            const mirrorHeight = isMobile ? 50 : 80;
-            const mirrorRadius = isMobile ? 6 : 8;
+            // Draw rearview mirror
+            const mirrorX = isMobile ? width * MIRROR_X_MOBILE : width * MIRROR_X_DESKTOP;
+            const mirrorY = isMobile ? MIRROR_Y_MOBILE : MIRROR_Y_DESKTOP;
+            const mirrorWidth = isMobile ? width * MIRROR_WIDTH_MOBILE : width * MIRROR_WIDTH_DESKTOP;
+            const mirrorHeight = isMobile ? MIRROR_HEIGHT_MOBILE : MIRROR_HEIGHT_DESKTOP;
+            const mirrorRadius = isMobile ? MIRROR_RADIUS_MOBILE : MIRROR_RADIUS_DESKTOP;
 
             ctx.save();
 
+            // Clip to mirror shape
             ctx.beginPath();
             ctx.roundRect(mirrorX, mirrorY, mirrorWidth, mirrorHeight, mirrorRadius);
             ctx.clip();
 
-            ctx.fillStyle = '#FFFFFF';
+            // Draw mirror background (sky)
+            ctx.fillStyle = COLOR_WHITE;
             ctx.fillRect(mirrorX, mirrorY, mirrorWidth, mirrorHeight);
 
-            const mirrorHorizonY = mirrorY + mirrorHeight * 0.4;
-            ctx.fillStyle = '#F5F5F5';
+            // Draw mirror ground
+            const mirrorHorizonY = mirrorY + mirrorHeight * MIRROR_HORIZON_RATIO;
+            ctx.fillStyle = COLOR_GRAY_LIGHT;
             ctx.fillRect(mirrorX, mirrorHorizonY, mirrorWidth, mirrorHeight - (mirrorHorizonY - mirrorY));
 
+            // Draw mirror road outline
             const mirrorRoadTop = mirrorHorizonY;
             const mirrorRoadBottom = mirrorY + mirrorHeight;
-            const mirrorRoadTopWidth = mirrorWidth * 0.01;
-            const mirrorRoadBottomWidth = mirrorWidth * 0.65;
+            const mirrorRoadTopWidth = mirrorWidth * MIRROR_ROAD_TOP_WIDTH_RATIO;
+            const mirrorRoadBottomWidth = mirrorWidth * MIRROR_ROAD_BOTTOM_WIDTH_RATIO;
 
-            ctx.strokeStyle = '#CCCCCC';
-            ctx.lineWidth = 1.5;
+            ctx.strokeStyle = ROAD_EDGE_COLOR;
+            ctx.lineWidth = MIRROR_EDGE_WIDTH;
             ctx.beginPath();
             ctx.moveTo(mirrorX + mirrorWidth / 2 - mirrorRoadTopWidth / 2, mirrorRoadTop);
             ctx.lineTo(mirrorX + mirrorWidth / 2 + mirrorRoadTopWidth / 2, mirrorRoadTop);
@@ -408,44 +494,48 @@
             ctx.closePath();
             ctx.stroke();
 
-            ctx.strokeStyle = '#999999';
+            // Draw mirror road dashes (reversed perspective)
+            ctx.strokeStyle = DASH_COLOR;
             ctx.lineJoin = 'miter';
+            ctx.lineWidth = 1;
 
-            for (let i = 0; i < 5; i++) {
-                const mirrorProgress = (i / 5) + (offset / (dashLength + dashGap)) / 5;
+            for (let i = 0; i < MIRROR_LANES; i++) {
+                const mirrorProgress = (i / MIRROR_LANES) + (offset / (DASH_LENGTH + DASH_GAP)) / MIRROR_LANES;
                 const mirrorNormalizedProgress = (mirrorProgress % 1);
 
                 const my1 = mirrorRoadTop + (mirrorRoadBottom - mirrorRoadTop) * (1 - mirrorNormalizedProgress);
 
-                if (mirrorNormalizedProgress > 0.9) continue;
+                if (mirrorNormalizedProgress > MIRROR_DASH_PROGRESS_THRESHOLD) continue;
 
-                const mirrorDashHeight = (dashLength * 0.08) * (1 - (1 - mirrorNormalizedProgress) * 0.7);
+                // Calculate reversed perspective dash height
+                const mirrorDashHeight = (DASH_LENGTH * MIRROR_DASH_HEIGHT_BASE) * (1 - (1 - mirrorNormalizedProgress) * MIRROR_DASH_HEIGHT_SCALE);
                 const my2 = Math.max(my1 - mirrorDashHeight, mirrorRoadTop);
 
-                const mirrorDashWidth = 1.5 + (1 - mirrorNormalizedProgress) * 4;
+                // Calculate reversed perspective dash width
+                const mirrorDashWidth = MIRROR_DASH_WIDTH_MIN + (1 - mirrorNormalizedProgress) * (MIRROR_DASH_WIDTH_MAX - MIRROR_DASH_WIDTH_MIN);
                 const mx = mirrorX + mirrorWidth / 2 - mirrorDashWidth / 2;
-
-                ctx.lineWidth = 1;
 
                 ctx.strokeRect(mx, my2, mirrorDashWidth, my1 - my2);
             }
 
             ctx.restore();
 
-            ctx.strokeStyle = 'rgba(40, 40, 40, 0.95)';
-            ctx.lineWidth = isMobile ? 4 : 6;
+            // Draw mirror frame
+            ctx.strokeStyle = MIRROR_FRAME_COLOR;
+            ctx.lineWidth = isMobile ? MIRROR_FRAME_WIDTH_MOBILE : MIRROR_FRAME_WIDTH_DESKTOP;
             ctx.beginPath();
             ctx.roundRect(mirrorX, mirrorY, mirrorWidth, mirrorHeight, mirrorRadius);
             ctx.stroke();
 
-            ctx.fillStyle = 'rgba(40, 40, 40, 0.95)';
-            const mountWidth = isMobile ? 8 : 12;
+            // Draw mirror mount
+            ctx.fillStyle = MIRROR_FRAME_COLOR;
+            const mountWidth = isMobile ? MIRROR_MOUNT_WIDTH_MOBILE : MIRROR_MOUNT_WIDTH_DESKTOP;
             ctx.fillRect(mirrorX + mirrorWidth / 2 - mountWidth / 2, 0, mountWidth, mirrorY);
         }
 
         function animate() {
-            offset += speed;
-            if (offset > dashLength + dashGap) {
+            offset += ANIMATION_SPEED;
+            if (offset > DASH_LENGTH + DASH_GAP) {
                 offset = 0;
             }
 
