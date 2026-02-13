@@ -1,0 +1,2 @@
+# Nested copy when vault contains the repo (e.g. ABWeb/adum-brate-repo) and sync puts it under notes/
+src/site/notes/adum-brate-repo
