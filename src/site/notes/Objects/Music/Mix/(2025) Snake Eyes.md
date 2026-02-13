@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/objects/music/mix/2025-snake-eyes/","title":"Snake Eyes"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Mix/(2025) Snake Eyes.md","permalink":"/src/site/notes-objects/music/mix/2025-snake-eyes/","title":"Snake Eyes"}
 ---
 
 

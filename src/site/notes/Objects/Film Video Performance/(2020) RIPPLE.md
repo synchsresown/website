@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/objects/film-video-performance/2020-ripple/","title":"RIPPLE"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Film Video Performance/(2020) RIPPLE.md","permalink":"/src/site/notes-objects/film-video-performance/2020-ripple/","title":"RIPPLE"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/objects/music/production/2018-yours-truly-tama-gucci/","title":"Yours Truly - Tama Gucci"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Production/(2018) Yours Truly - Tama Gucci.md","permalink":"/src/site/notes-objects/music/production/2018-yours-truly-tama-gucci/","title":"Yours Truly - Tama Gucci"}
 ---
 
 

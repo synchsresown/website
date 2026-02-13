@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/objects/music/album/2021-last-days-in-a-lonely-place/","title":"Last Days in a Lonely Place"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Album/(2021) Last Days in a Lonely Place.md","permalink":"/src/site/notes-objects/music/album/2021-last-days-in-a-lonely-place/","title":"Last Days in a Lonely Place"}
 ---
 
 
