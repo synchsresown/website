@@ -5,4 +5,6 @@
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/qEoRluaZM4g?si=-ri2H0gsG2xjpvwh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-video by [Ida Pruitt](https://www.idapruitt.com/)
+Video by [Ida Pruitt](https://www.idapruitt.com/)
+from "Last Days in a Lonely Place" (QNR045)
+released 20th December 2021 on Quantum Natives

@@ -3,6 +3,8 @@
 ---
 
 
+![lastdays_cover.png](/img/user/Objects/Image/lastdays_cover.png)
+
 <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A1366518514&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/quantum_natives" title="Quantum Natives" target="_blank" style="color: #cccccc; text-decoration: none;">Quantum Natives</a> · <a href="https://soundcloud.com/quantum_natives/sets/adum-brate-last-days-in-a" title="Adum Brate - Last Days in a Lonely Place" target="_blank" style="color: #cccccc; text-decoration: none;">Adum Brate - Last Days in a Lonely Place</a></div>
 
 “You have to proceed almost by accident. I learned about a motor vehicle this way.

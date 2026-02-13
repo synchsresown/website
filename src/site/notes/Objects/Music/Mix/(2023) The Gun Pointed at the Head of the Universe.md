@@ -16,7 +16,7 @@ A 1-Hour Cerebral Workout of Emotional Mathematics and Hardcore Introspection.
 *You cannot negotiate with gravity*
 *Push the door, I'm home at last"*
 
-![[ShadowBoxing.mov]]
+![HaloPainting02.jpg](/img/user/Objects/Image/HaloPainting02.jpg)
 
 #### Tracklist:
 Linkin Park - "Ntr\Mssion"
@@ -69,5 +69,3 @@ Eminem - "Superman (Instrumental)"
 Eminem - "Superman (Ess Cover)"
 Moby - "New Dawn Fades"
 Korn - "Am I Going Crazy"
-
-![HaloPainting02.jpg](/img/user/Objects/Image/HaloPainting02.jpg)

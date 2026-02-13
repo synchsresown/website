@@ -9,5 +9,3 @@
 
 Mixed by [Racine](https://soundcloud.com/julienracine)
 Mastered by [Aulic Veil](https://soundcloud.com/aulicveil)
-
-![[AB_LLV.mp4]]

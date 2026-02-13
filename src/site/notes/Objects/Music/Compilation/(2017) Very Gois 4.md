@@ -3,7 +3,7 @@
 ---
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rreWLC4I7F0?si=8Pe1Cqx8F_z9pQ54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/rreWLC4I7F0?si=8Pe1Cqx8F_z9pQ54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Disc 1 (CD-R)
 1. refrain - aoosya
@@ -32,8 +32,8 @@ Booklet
 and more some secret contents
 more info http://vg.pe.hu/compilation/04/
 
-![vg-000.jpeg|560](/img/user/Objects/Image/vg-000.jpeg)
+![vg-000.jpeg](/img/user/Objects/Image/vg-000.jpeg)
 
-![vg-001.jpeg|560](/img/user/Objects/Image/vg-001.jpeg)
+![vg-001.jpeg](/img/user/Objects/Image/vg-001.jpeg)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DpNEZ0EuvR8?si=34Nvjw6H7S13hv8z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/DpNEZ0EuvR8?si=34Nvjw6H7S13hv8z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

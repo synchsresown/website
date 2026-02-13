@@ -5,7 +5,7 @@
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2140763586&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/ola_radio" title="Ola Radio" target="_blank" style="color: #cccccc; text-decoration: none;">Ola Radio</a> · <a href="https://soundcloud.com/ola_radio/the-walkable-city-experience-ep04-queens-nyc-adum-brate" title="The Walkable City Experience ep04: Queens, NYC — Adum Brate" target="_blank" style="color: #cccccc; text-decoration: none;">The Walkable City Experience ep04: Queens, NYC — Adum Brate</a></div>
 
 **The Walkable City Experience ep 04: Queens - Adum Brate**
-Premiered on Ola Radio
+Premiered on Ola Radio 2025-07-23
 
 *I was out in the desert for two weeks. When I got back to Queens, the first thing I did was assemble this mix: taking a walk to reflect on driving a car. When I’m on foot in New York, it feels like every day I’m dodging the car that’s about to end me. “Ay, I’m walking here.” But when I’m behind the wheel, I only think about other cars. Pedestrians never enter into the stage-road drama. Surfers and bikers. Songs come in waves. “I’ve been here before.” It’s been almost three years, and that Milli Vanilli song is still crashing around in my head.*
 
