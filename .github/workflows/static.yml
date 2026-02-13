@@ -32,6 +32,10 @@ jobs:
         run: npm ci
 
       - name: Build
+        env:
+          THEME: "https://raw.githubusercontent.com/elhariss/Obsidian-Minimal-Edge/HEAD/theme.css"
+          SITE_BASE_URL: "https://adumbrate.net"
+          SITE_NAME_HEADER: "Adum Brate (& more)"
         run: npm run build
 
       - name: Setup Pages

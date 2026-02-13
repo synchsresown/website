@@ -10,4 +10,34 @@ body {
     //  h1 {
     //   color: black;
     //  }
+
+    /* Markdown table formatting (home page and notes) */
+    .content table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1rem 0;
+        font-size: 0.95rem;
+    }
+    .content table thead tr {
+        border-bottom: 2px solid var(--background-modifier-border, rgba(255, 255, 255, 0.15));
+    }
+    .content table th,
+    .content table td {
+        padding: 0.5rem 0.75rem;
+        text-align: left;
+        vertical-align: top;
+    }
+    .content table th {
+        font-weight: 600;
+        color: var(--text-muted, #999);
+    }
+    .content table tbody tr {
+        border-bottom: 1px solid var(--background-modifier-border, rgba(255, 255, 255, 0.08));
+    }
+    .content table tbody tr:hover {
+        background: var(--background-modifier-hover, rgba(255, 255, 255, 0.04);
+    }
+    .content table a {
+        color: var(--link-color, var(--text-accent));
+    }
 }
