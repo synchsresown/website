@@ -397,7 +397,7 @@ module.exports = function(eleventyConfig) {
       dataViewJsLink.innerHTML = innerHTML;
     }
 
-    return str && parsed.innerHTML;
+    return str && parsed.toString();
   });
 
   // Shared helper to transform callout blockquotes - used by both callout-block transform and canvas-markdown
@@ -461,7 +461,7 @@ module.exports = function(eleventyConfig) {
     }
     const parsed = parse(str);
     transformCalloutBlockquotes(parsed.querySelectorAll("blockquote"));
-    return str && parsed.innerHTML;
+    return str && parsed.toString();
   });
 
   function fillPictureSourceSets(src, cls, alt, meta, width, imageTag) {
@@ -509,28 +509,50 @@ module.exports = function(eleventyConfig) {
     const parsed = parse(str);
     for (const imageTag of parsed.querySelectorAll(".cm-s-obsidian img")) {
       const src = imageTag.getAttribute("src");
-      if (src && src.startsWith("/") && !src.endsWith(".svg")) {
-        const cls = imageTag.classList.value;
-        const alt = imageTag.getAttribute("alt");
-        const width = imageTag.getAttribute("width") || '';
+      if (!src || !src.startsWith("/") || src.endsWith(".svg")) continue;
+      // Leave vault images as plain img so they always work from passthrough
+      if (src.startsWith("/img/user/")) continue;
+      const cls = imageTag.classList.value;
+      const alt = imageTag.getAttribute("alt");
+      const width = imageTag.getAttribute("width") || '';
 
-        try {
-          const meta = transformImage(
-            "./src/site" + decodeURI(imageTag.getAttribute("src")),
-            cls.toString(),
-            alt,
-            ["(max-width: 480px)", "(max-width: 1024px)"]
-          );
+      try {
+        const meta = transformImage(
+          "./src/site" + decodeURI(imageTag.getAttribute("src")),
+          cls.toString(),
+          alt,
+          ["(max-width: 480px)", "(max-width: 1024px)"]
+        );
 
-          if (meta) {
-            fillPictureSourceSets(src, cls, alt, meta, width, imageTag);
-          }
-        } catch {
-          // Make it fault tolarent.
+        if (meta) {
+          fillPictureSourceSets(src, cls, alt, meta, width, imageTag);
         }
+      } catch {
+        // Make it fault tolarent.
       }
     }
-    return str && parsed.innerHTML;
+    return str && parsed.toString();
+  });
+
+  // Ensure vault image URLs work: rewrite relative src to root-relative /img/user/ path
+  eleventyConfig.addTransform("fix-image-paths", function(str) {
+    if (!isMarkdownPage(this.page.inputPath)) {
+      return str;
+    }
+    const parsed = parse(str);
+    for (const imageTag of parsed.querySelectorAll(".cm-s-obsidian img")) {
+      let src = imageTag.getAttribute("src");
+      if (!src || /^\s*$/.test(src)) continue;
+      const trimmed = src.trim();
+      if (trimmed.startsWith("http:") || trimmed.startsWith("https:") || trimmed.startsWith("data:")) continue;
+      // Already root-relative – leave as-is
+      if (trimmed.startsWith("/")) continue;
+      // Relative path: resolve to site image root so browser requests /img/user/...
+      const normalized = trimmed.replace(/^\.?\//, "");
+      const path = normalized.startsWith("img/user/") ? "/" + normalized : "/img/user/Objects/Image/" + normalized.replace(/^.*\//, "");
+      imageTag.setAttribute("src", path);
+    }
+    return str && parsed.toString();
   });
 
   eleventyConfig.addTransform("table", function(str) {
@@ -559,7 +581,7 @@ module.exports = function(eleventyConfig) {
         th.classList.add("table-view-th");
       });
     }
-    return str && parsed.innerHTML;
+    return str && parsed.toString();
   });
 
   // Helper function to convert wiki-links in canvas text nodes (same logic as link filter)
@@ -620,7 +642,7 @@ module.exports = function(eleventyConfig) {
           }
         }
       }
-      return parsed.innerHTML;
+      return parsed.toString();
     } catch (e) {
       // If parsing fails entirely, return original content
       console.error('Failed to parse canvas content:', e);

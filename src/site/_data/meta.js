@@ -89,7 +89,7 @@ module.exports = async (data) => {
     bodyClasses: bodyClasses.join(" "),
     noteIconsSettings,
     timestampSettings,
-    baseTheme: process.env.BASE_THEME || "dark",
+    baseTheme: process.env.BASE_THEME || "light",
     siteName: process.env.SITE_NAME_HEADER || "Digital Garden",
     siteLogoPath: logoPath,
     mainLanguage: process.env.SITE_MAIN_LANGUAGE || "en",

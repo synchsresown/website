@@ -32,5 +32,7 @@ fi
 #   cp -n "$VAULT_ROOT/Assets/Images"/*.* "$IMG_DEST/Assets/Images/" 2>/dev/null || true
 # fi
 
-echo "Done. Commit and push if you want the site to show new/updated images."
+echo "Done."
+echo "For the live site (e.g. Vercel) to show images, they must be in the repo:"
+echo "  git add src/site/img && git commit -m 'Add/sync images' && git push"
 echo "In notes, reference images as: /img/user/Objects/Image/filename.png"
