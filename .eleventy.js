@@ -57,14 +57,15 @@ function getAnchorAttributes(filePath, linkTitle) {
     }
     const file = fs.readFileSync(fullPath, "utf8");
     const frontMatter = matter(file);
-    if (frontMatter.data.permalink) {
-      permalink = frontMatter.data.permalink;
-    }
     if (
       frontMatter.data.tags &&
       frontMatter.data.tags.indexOf("gardenEntry") != -1
     ) {
       permalink = "/";
+    } else {
+      const relative = fullPath.replace(/^\.\/src\/site\/notes\/?/, "").replace(/\.(md|canvas)$/i, "");
+      const segments = relative.split(/[/\\]/).map((s) => slugify(s)).filter(Boolean);
+      if (segments.length) permalink = "/" + segments.join("/") + "/";
     }
     if (frontMatter.data.noteIcon) {
       noteIcon = frontMatter.data.noteIcon;

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Album/(2020) Isonautics Remixed.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/album/2020-isonautics-remixed/","title":"Isonautics Remixed"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Album/(2020) Isonautics Remixed.md","permalink":"/src/site/notes-objects/music/album/2020-isonautics-remixed/","title":"Isonautics Remixed"}
 ---
 
 
