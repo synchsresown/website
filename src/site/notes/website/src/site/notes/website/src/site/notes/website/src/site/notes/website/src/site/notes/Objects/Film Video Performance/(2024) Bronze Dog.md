@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Film Video Performance/(2024) Bronze Dog.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/film-video-performance/2024-bronze-dog/","title":"Bronze Dog"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Film Video Performance/(2024) Bronze Dog.md","permalink":"/src/site/notes-objects/film-video-performance/2024-bronze-dog/","title":"Bronze Dog"}
 ---
 
 
