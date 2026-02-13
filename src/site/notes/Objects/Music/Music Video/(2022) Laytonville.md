@@ -3,6 +3,6 @@
 ---
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qEoRluaZM4g?si=-ri2H0gsG2xjpvwh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/qEoRluaZM4g?si=-ri2H0gsG2xjpvwh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 video by [Ida Pruitt](https://www.idapruitt.com/)

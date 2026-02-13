@@ -18,3 +18,7 @@ I stepped out; ran away. When I stopped and turned around the vehicle was moving
 Until then I did not understand how easily the vehicle’s tendencies of direction and movement could be abandoned, together with its systems of roads, road signs, and stop lights. By a series of strippings such as this one enters the desert."
 
 -Barry Lopez, *Desert Notes*
+
+
+**[(QNR045)](http://www.quantumnatives.com)**
+released 20th December 2021

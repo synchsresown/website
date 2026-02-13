@@ -4,7 +4,21 @@
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1694282421&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/adum_brate" title="Adum Brate" target="_blank" style="color: #cccccc; text-decoration: none;">Adum Brate</a> · <a href="https://soundcloud.com/adum_brate/the-gun-pointed-at-the-head-of-the-universe" title="The Gun Pointed at the Head of the Universe" target="_blank" style="color: #cccccc; text-decoration: none;">The Gun Pointed at the Head of the Universe</a></div>
 
-## Tracklist:
+![BookletCollage.jpg](/img/user/Objects/Image/BookletCollage.jpg)
+
+## **The Gun Pointed at the Head of the Universe**
+
+A 1-Hour Cerebral Workout of Emotional Mathematics and Hardcore Introspection.
+
+*"It always thunders but never rains*
+*You have companies in places you've never been to*
+*The call is coming from inside the house*
+*You cannot negotiate with gravity*
+*Push the door, I'm home at last"*
+
+![[ShadowBoxing.mov]]
+
+#### Tracklist:
 Linkin Park - "Ntr\Mssion"
 Eminem - “Curtains Up (Skit)”
 Limp Bizkit - "Counterfeit"
@@ -55,3 +69,5 @@ Eminem - "Superman (Instrumental)"
 Eminem - "Superman (Ess Cover)"
 Moby - "New Dawn Fades"
 Korn - "Am I Going Crazy"
+
+![HaloPainting02.jpg](/img/user/Objects/Image/HaloPainting02.jpg)
