@@ -40,4 +40,16 @@ body {
     .content table a {
         color: var(--link-color, var(--text-accent));
     }
+
+    /* Responsive iframes (SoundCloud, Bandcamp, etc.) – no horizontal overflow on mobile */
+    .content iframe {
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .content > iframe + div {
+        max-width: 100%;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
 }
