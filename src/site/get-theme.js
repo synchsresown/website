@@ -6,8 +6,10 @@ const {globSync} = require("glob");
 
 const themeCommentRegex = /\/\*[\s\S]*?\*\//g;
 
+const DEFAULT_THEME_URL = "https://raw.githubusercontent.com/elhariss/Obsidian-Minimal-Edge/HEAD/theme.css";
+
 async function getTheme() {
-  let themeUrl = process.env.THEME;
+  let themeUrl = process.env.THEME || DEFAULT_THEME_URL;
   if (themeUrl) {
     //https://forum.obsidian.md/t/1-0-theme-migration-guide/42537
     //Not all themes with no legacy mark have a theme.css file, so we need to check for it
