@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Mix/(2025) House Edge.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/mix/2025-house-edge/","title":"House Edge"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Mix/(2025) House Edge.md","permalink":"/src/site/notes-objects/music/mix/2025-house-edge/","title":"House Edge"}
 ---
 
 
