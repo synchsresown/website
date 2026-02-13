@@ -44,4 +44,7 @@ async function getTheme() {
   }
 }
 
-getTheme();
+getTheme().catch((err) => {
+  console.error("get-theme:", err.message);
+  process.exit(1);
+});
