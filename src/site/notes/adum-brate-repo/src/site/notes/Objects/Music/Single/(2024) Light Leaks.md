@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/music/single/2024-light-leaks/","title":"Light Leaks"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Music/Single/(2024) Light Leaks.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/music/single/2024-light-leaks/","title":"Light Leaks"}
 ---
 
 

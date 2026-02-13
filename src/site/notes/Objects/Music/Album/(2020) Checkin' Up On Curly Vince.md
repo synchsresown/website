@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/objects/music/album/2020-checkin-up-on-curly-vince/","title":"Checkin' Up On Curly Vince"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Album/(2020) Checkin' Up On Curly Vince.md","permalink":"/src/site/notes-objects/music/album/2020-checkin-up-on-curly-vince/","title":"Checkin' Up On Curly Vince"}
 ---
 
 <iframe style="border: 0; width: 600px; height: 937px;" src="https://bandcamp.com/EmbeddedPlayer/album=1663695222/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless></iframe>

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/music/album/2020-checkin-up-on-curly-vince/","title":"Checkin' Up On Curly Vince"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Music/Album/(2020) Checkin' Up On Curly Vince.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/music/album/2020-checkin-up-on-curly-vince/","title":"Checkin' Up On Curly Vince"}
 ---
 
 

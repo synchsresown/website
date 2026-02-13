@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/objects/music/compilation/2023-through-the-fire-and-flames/","title":"Through the Fire and Flames"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Compilation/(2023) Through the Fire and Flames.md","permalink":"/src/site/notes-objects/music/compilation/2023-through-the-fire-and-flames/","title":"Through the Fire and Flames"}
 ---
 
 

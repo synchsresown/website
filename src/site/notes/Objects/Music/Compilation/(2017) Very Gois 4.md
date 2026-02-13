@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/objects/music/compilation/2017-very-gois-4/","title":"Very Gois 4"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Compilation/(2017) Very Gois 4.md","permalink":"/src/site/notes-objects/music/compilation/2017-very-gois-4/","title":"Very Gois 4"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/music/single/2021-music-for-182-musicians/","title":"Music for 182 Musicians"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Music/Single/(2021) Music for 182 Musicians.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/music/single/2021-music-for-182-musicians/","title":"Music for 182 Musicians"}
 ---
 
 

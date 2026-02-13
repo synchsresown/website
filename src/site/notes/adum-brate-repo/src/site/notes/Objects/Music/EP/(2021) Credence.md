@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/music/ep/2021-credence/","title":"Credence"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Music/EP/(2021) Credence.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/music/ep/2021-credence/","title":"Credence"}
 ---
 
 

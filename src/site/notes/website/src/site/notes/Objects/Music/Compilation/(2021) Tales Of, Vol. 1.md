@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/src/site/notes/objects/music/compilation/2021-tales-of-vol-1/","title":"Tales Of, Vol. 1"}
+{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Compilation/(2021) Tales Of, Vol. 1.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/compilation/2021-tales-of-vol-1/","title":"Tales Of, Vol. 1"}
 ---
 
 

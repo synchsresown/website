@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/src/site/notes/objects/music/music-video/2019-glacial-romance/","title":"Glacial Romance"}
+{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Music Video/(2019) Glacial Romance.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/music-video/2019-glacial-romance/","title":"Glacial Romance"}
 ---
 
 

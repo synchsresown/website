@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/music/album/2020-isonautics-remixed/","title":"Isonautics Remixed"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Music/Album/(2020) Isonautics Remixed.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/music/album/2020-isonautics-remixed/","title":"Isonautics Remixed"}
 ---
 
 

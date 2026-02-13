@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/objects/film-video-performance/2019-sunset-yma/","title":"sunset - yma"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Film Video Performance/(2019) sunset - yma.md","permalink":"/src/site/notes-objects/film-video-performance/2019-sunset-yma/","title":"sunset - yma"}
 ---
 
 

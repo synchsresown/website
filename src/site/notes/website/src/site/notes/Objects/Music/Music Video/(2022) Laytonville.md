@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/src/site/notes/objects/music/music-video/2022-laytonville/","title":"Laytonville"}
+{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Music Video/(2022) Laytonville.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/music-video/2022-laytonville/","title":"Laytonville"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/src/site/notes/objects/music/mix/2017-jerome-mixfile-086/","title":"JEROME Mixfile 086"}
+{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Mix/(2017) JEROME Mixfile 086.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/mix/2017-jerome-mixfile-086/","title":"JEROME Mixfile 086"}
 ---
 
 

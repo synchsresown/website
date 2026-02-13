@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/objects/music/mix/2021-hkcr-absurd-trax/","title":"HKCR: Absurd TRAX w/ Crown Shyness"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Mix/(2021) HKCR Absurd TRAX.md","permalink":"/src/site/notes-objects/music/mix/2021-hkcr-absurd-trax/","title":"HKCR: Absurd TRAX w/ Crown Shyness"}
 ---
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1112867095&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hkcrlive" title="HKCR" target="_blank" style="color: #cccccc; text-decoration: none;">HKCR</a> · <a href="https://soundcloud.com/hkcrlive/absurd-trax-w-crown-shyness-25082021" title="Absurd TRAX w/ Crown Shyness - 25/08/2021" target="_blank" style="color: #cccccc; text-decoration: none;">Absurd TRAX w/ Crown Shyness - 25/08/2021</a></div>

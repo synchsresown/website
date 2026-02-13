@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/src/site/notes/objects/music/mix/2024-lyl-radio-i-n-unison-014/","title":"LYL Radio: iN Unison 014 w/ Adum Brate"}
+{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Mix/(2024) LYL Radio iN Unison 014.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/mix/2024-lyl-radio-i-n-unison-014/","title":"LYL Radio: iN Unison 014 w/ Adum Brate"}
 ---
 
 

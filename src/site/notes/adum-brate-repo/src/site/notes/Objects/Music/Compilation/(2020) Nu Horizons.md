@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/music/compilation/2020-nu-horizons/","title":"Nu Horizons"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Music/Compilation/(2020) Nu Horizons.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/music/compilation/2020-nu-horizons/","title":"Nu Horizons"}
 ---
 
 

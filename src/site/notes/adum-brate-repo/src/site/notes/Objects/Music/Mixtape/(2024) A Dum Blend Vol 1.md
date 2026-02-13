@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/music/mixtape/2024-a-dum-blend-vol-1/","title":"A Dum Blend Vol 1"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Music/Mixtape/(2024) A Dum Blend Vol 1.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/music/mixtape/2024-a-dum-blend-vol-1/","title":"A Dum Blend Vol 1"}
 ---
 
 

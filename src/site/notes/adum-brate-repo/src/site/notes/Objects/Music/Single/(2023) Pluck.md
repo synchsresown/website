@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/music/single/2023-pluck/","title":"Pluck"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Music/Single/(2023) Pluck.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/music/single/2023-pluck/","title":"Pluck"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/music/production/2019-amateur-psychology-joe-jeffers/","title":" Amateur Psychology - Joe Jeffers"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Music/Production/(2019) Amateur Psychology - Joe Jeffers.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/music/production/2019-amateur-psychology-joe-jeffers/","title":" Amateur Psychology - Joe Jeffers"}
 ---
 
 

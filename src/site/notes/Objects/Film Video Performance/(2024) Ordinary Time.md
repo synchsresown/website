@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/objects/film-video-performance/2024-ordinary-time/","title":"Ordinary Time"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Film Video Performance/(2024) Ordinary Time.md","permalink":"/src/site/notes-objects/film-video-performance/2024-ordinary-time/","title":"Ordinary Time"}
 ---
 
 [Ordinary Time (2024)](https://www.julibrandano.com/ordinary-time)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/objects/music/album/2021-stunt-double/","title":"Stunt Double"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Album/(2021) Stunt Double.md","permalink":"/src/site/notes-objects/music/album/2021-stunt-double/","title":"Stunt Double"}
 ---
 
 

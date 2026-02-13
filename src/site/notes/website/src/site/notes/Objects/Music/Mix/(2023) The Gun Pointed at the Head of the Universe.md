@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/src/site/notes/objects/music/mix/2023-the-gun-pointed-at-the-head-of-the-universe/","title":"The Gun Pointed at the Head of the Universe"}
+{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Mix/(2023) The Gun Pointed at the Head of the Universe.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/mix/2023-the-gun-pointed-at-the-head-of-the-universe/","title":"The Gun Pointed at the Head of the Universe"}
 ---
 
 

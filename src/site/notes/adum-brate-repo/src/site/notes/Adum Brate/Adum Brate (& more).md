@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/adum-brate/adum-brate-and-more/","tags":["gardenEntry"]}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Adum Brate/Adum Brate (& more).md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/adum-brate/adum-brate-and-more/","tags":["gardenEntry"]}
 ---
 
 

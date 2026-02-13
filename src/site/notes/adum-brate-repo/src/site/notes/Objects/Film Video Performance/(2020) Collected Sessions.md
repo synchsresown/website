@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/film-video-performance/2020-collected-sessions/","title":"Collected Sessions (w/ Theodore Darst)"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Film Video Performance/(2020) Collected Sessions.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/film-video-performance/2020-collected-sessions/","title":"Collected Sessions (w/ Theodore Darst)"}
 ---
 
 

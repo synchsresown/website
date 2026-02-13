@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/music/mix/2023-adum-brate-a-mix/","title":"Adum Brate: A Mix (Madjestic Kasual)"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Music/Mix/(2023) Adum Brate - A Mix.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/music/mix/2023-adum-brate-a-mix/","title":"Adum Brate: A Mix (Madjestic Kasual)"}
 ---
 
 

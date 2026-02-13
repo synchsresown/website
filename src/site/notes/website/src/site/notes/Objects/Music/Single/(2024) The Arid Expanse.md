@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/src/site/notes/objects/music/single/2024-the-arid-expanse/","title":"The Arid Expanse"}
+{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Single/(2024) The Arid Expanse.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/single/2024-the-arid-expanse/","title":"The Arid Expanse"}
 ---
 
 

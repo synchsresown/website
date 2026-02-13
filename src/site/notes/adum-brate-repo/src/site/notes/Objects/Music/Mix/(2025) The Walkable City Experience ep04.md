@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/music/mix/2025-the-walkable-city-experience-ep04/","title":"The Walkable City Experience ep04: Queens"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Music/Mix/(2025) The Walkable City Experience ep04.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/music/mix/2025-the-walkable-city-experience-ep04/","title":"The Walkable City Experience ep04: Queens"}
 ---
 
 

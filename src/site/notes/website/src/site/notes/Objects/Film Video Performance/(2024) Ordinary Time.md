@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/src/site/notes/objects/film-video-performance/2024-ordinary-time/","title":"Ordinary Time"}
+{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Film Video Performance/(2024) Ordinary Time.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/film-video-performance/2024-ordinary-time/","title":"Ordinary Time"}
 ---
 
 

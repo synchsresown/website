@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/music/album/2021-stunt-double/","title":"Stunt Double"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Music/Album/(2021) Stunt Double.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/music/album/2021-stunt-double/","title":"Stunt Double"}
 ---
 
 

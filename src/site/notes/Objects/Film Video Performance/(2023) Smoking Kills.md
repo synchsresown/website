@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/objects/film-video-performance/2023-smoking-kills/","title":"Smoking Kills"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Film Video Performance/(2023) Smoking Kills.md","permalink":"/src/site/notes-objects/film-video-performance/2023-smoking-kills/","title":"Smoking Kills"}
 ---
 
 

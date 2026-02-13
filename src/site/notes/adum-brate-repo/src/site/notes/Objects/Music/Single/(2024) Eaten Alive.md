@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/music/single/2024-eaten-alive/","title":"Eaten Alive"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Music/Single/(2024) Eaten Alive.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/music/single/2024-eaten-alive/","title":"Eaten Alive"}
 ---
 
 

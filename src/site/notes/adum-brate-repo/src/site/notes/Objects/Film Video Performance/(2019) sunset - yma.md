@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/film-video-performance/2019-sunset-yma/","title":"sunset - yma"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Film Video Performance/(2019) sunset - yma.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/film-video-performance/2019-sunset-yma/","title":"sunset - yma"}
 ---
 
 

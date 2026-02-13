@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/objects/film-video-performance/2025-the-deliveryboy/","title":"The Deliveryboy"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Film Video Performance/(2025) The Deliveryboy.md","permalink":"/src/site/notes-objects/film-video-performance/2025-the-deliveryboy/","title":"The Deliveryboy"}
 ---
 
 

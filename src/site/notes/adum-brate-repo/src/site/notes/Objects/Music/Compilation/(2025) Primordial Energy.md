@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/adum-brate-repo/src/site/notes/objects/music/compilation/2025-primordial-energy/","title":"Primordial Energy"}
+{"dg-publish":true,"dg-path":"src/site/notesadum-brate-repo/src/site/notes/Objects/Music/Compilation/(2025) Primordial Energy.md","permalink":"/src/site/notesadum-brate-repo/src/site/notes/objects/music/compilation/2025-primordial-energy/","title":"Primordial Energy"}
 ---
 
 

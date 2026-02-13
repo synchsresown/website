@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/src/site/notes/objects/music/production/2019-amateur-psychology-joe-jeffers/","title":" Amateur Psychology - Joe Jeffers"}
+{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Production/(2019) Amateur Psychology - Joe Jeffers.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/production/2019-amateur-psychology-joe-jeffers/","title":" Amateur Psychology - Joe Jeffers"}
 ---
 
 

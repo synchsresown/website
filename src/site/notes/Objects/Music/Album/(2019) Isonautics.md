@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/objects/music/album/2019-isonautics/","title":"Isonautics"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Album/(2019) Isonautics.md","permalink":"/src/site/notes-objects/music/album/2019-isonautics/","title":"Isonautics"}
 ---
 
 
