@@ -10,4 +10,4 @@
 Mixed by [Racine](https://soundcloud.com/julienracine)  
 Mastered by [Andrew Weathers](https://andrewweathers.com)
 
-Premiered as a staff pick on [Nina](www.ninaprotocol.com/articles/adum-…e-he-fell-down)
+Premiered as a staff pick on [Nina](https://www.ninaprotocol.com/posts/adum-brate-he-fell-down)
