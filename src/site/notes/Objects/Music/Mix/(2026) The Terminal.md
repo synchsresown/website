@@ -9,6 +9,8 @@
 
 *"I live here... in terminal."*
 
+Aired 02/11/2026 with [Ikr. Imprint on NTS](https://www.nts.live/shows/ikura-imprint/episodes/ikura-imprint-11th-february-2026)
+
 #### Tracklist
 Trouble (Alias "Truth Be Told" rip) - Cat Stevens
 Road Man - Smash Mouth
