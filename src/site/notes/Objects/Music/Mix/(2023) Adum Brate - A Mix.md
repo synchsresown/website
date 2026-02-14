@@ -2,9 +2,22 @@
 {"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Mix/(2023) Adum Brate - A Mix.md","permalink":"/src/site/notes-objects/music/mix/2023-adum-brate-a-mix/","title":"Adum Brate: A Mix (Madjestic Kasual)"}
 ---
 
+
+![mkmix0.jpg](/img/user/Objects/Image/mkmix0.jpg)
+
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1443152680&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/madjestickasual" title="Madjestic Kasual" target="_blank" style="color: #cccccc; text-decoration: none;">Madjestic Kasual</a> · <a href="https://soundcloud.com/madjestickasual/adum-brate-a-mix" title="Adum Brate: A Mix" target="_blank" style="color: #cccccc; text-decoration: none;">Adum Brate: A Mix</a></div>
 
-## Tracklist:
+*Origin Story. Desert heat, hideous glare, buzzard caw. A faded tombstone, rope-lashed grave cross. You’re leathered. You’re chapped. Your exposed asscheeks are peeling up a storm. No matter. You apply Adum Brate’s Madjestic Kasual ‘A Mix’ mix. Soothed. Cooled. Smoothed. You like it.*
+
+![mkmix1.jpg](/img/user/Objects/Image/mkmix1.jpg)
+
+![mkmix3.jpg](/img/user/Objects/Image/mkmix3.jpg)
+
+![mkmix4.jpg](/img/user/Objects/Image/mkmix4.jpg)
+
+![mkmix5.jpg](/img/user/Objects/Image/mkmix5.jpg)
+
+#### Tracklist:
 Sublime - "Waiting For My Ruca (Adum Brate's 'Last Chants For A Slow Dance' Edit ft. Ashley Pinnell)"  
 Adum Brate - "Angry Chug (early version)"  
 Adum Brate - "A Mute Bard"  

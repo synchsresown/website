@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Single/(2023) He Fell Down.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/single/2023-he-fell-down/","title":"He Fell Down"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Single/(2023) He Fell Down.md","permalink":"/src/site/notes-objects/music/single/2023-he-fell-down/","title":"He Fell Down"}
 ---
 
 

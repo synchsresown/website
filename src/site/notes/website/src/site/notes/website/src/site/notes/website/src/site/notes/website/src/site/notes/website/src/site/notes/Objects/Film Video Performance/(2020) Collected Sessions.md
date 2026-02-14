@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Film Video Performance/(2020) Collected Sessions.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/film-video-performance/2020-collected-sessions/","title":"Collected Sessions (w/ Theodore Darst)"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Film Video Performance/(2020) Collected Sessions.md","permalink":"/src/site/notes-objects/film-video-performance/2020-collected-sessions/","title":"Collected Sessions (w/ Theodore Darst)"}
 ---
 
 

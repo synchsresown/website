@@ -3,7 +3,11 @@
 ---
 
 
-<iframe style="border: 0; width: 100%; height: 937px;" src="https://bandcamp.com/EmbeddedPlayer/album=2753075435/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless></iframe>
+![stuntdouble-artwork.jpg](/img/user/Objects/Image/stuntdouble-artwork.jpg)
+
+<iframe style="border: 0; width: 100%; height: 400px;" src="https://bandcamp.com/EmbeddedPlayer/album=2753075435/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless></iframe>
+
+**Stunt Double** (AT-023)
 
 *Baby genius, double-helix, twin guards. Paranormal mechanism. A stupid child in the woods. A stunt double is a parody of the actor.*  
   

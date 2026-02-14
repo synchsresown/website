@@ -4,6 +4,8 @@
 
 
 
+![AB_web.jpeg](/img/user/Objects/Image/AB_web.jpeg)
+
 **[Nina](https://www.ninaprotocol.com/hubs/synchsresown) [SC](https://soundcloud.com/adum_brate) [YT](https://www.youtube.com/@a-mute-bard) [Buckets](https://bucketsmusic.org/)**
 
 

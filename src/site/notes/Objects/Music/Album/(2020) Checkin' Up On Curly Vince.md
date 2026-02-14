@@ -2,13 +2,16 @@
 {"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Album/(2020) Checkin' Up On Curly Vince.md","permalink":"/src/site/notes-objects/music/album/2020-checkin-up-on-curly-vince/","title":"Checkin' Up On Curly Vince"}
 ---
 
-<iframe style="border: 0; width: 100%; height: 937px;" src="https://bandcamp.com/EmbeddedPlayer/album=1663695222/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless></iframe>
+
+![ccv.jpg](/img/user/Objects/Image/ccv.jpg)
+
+<iframe style="border: 0; width: 100%; height: 373px;" src="https://bandcamp.com/EmbeddedPlayer/album=1663695222/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless></iframe>
 
 Artwork by Theodore Darst
 
 Deluxe edition available on [Nina](https://www.ninaprotocol.com/releases/adum-brate-checkin-up-on-curly-vince-deluxe-edition)
 
-![curlyvine-back.png](/img/user/Objects/Image/curlyvine-back.png)
+🎰 🎰 🎰 
 
 *A Mute Bard and Sir Curly*
 *in the pit acting surly*
@@ -33,3 +36,5 @@ Deluxe edition available on [Nina](https://www.ninaprotocol.com/releases/adum-br
 *"Doesn't matter the smoke*
 *once it clears you'll be broke*
 *for The House, oh The House, always wins."*
+
+![curlyvine-back.png](/img/user/Objects/Image/curlyvine-back.png)

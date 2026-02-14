@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Music Video/(2024) He Fell Down.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/music-video/2024-he-fell-down/","title":"He Fell Down (MK MV PREMIERE)"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Music Video/(2024) He Fell Down.md","permalink":"/src/site/notes-objects/music/music-video/2024-he-fell-down/","title":"He Fell Down (MK MV PREMIERE)"}
 ---
 
 
