@@ -99,6 +99,16 @@ body.home-page .minimal-content p:has(> img:only-child) img {
     margin-bottom: 0;
 }
 
+body.home-page .minimal-content li:nth-child(2),
+body.home-page .minimal-content li:nth-child(4) {
+    margin-top: 1.4em;
+}
+
+body.home-page .minimal-content li:last-child a,
+body.home-page .minimal-content li:last-child a:visited {
+    color: red;
+}
+
 /* Note pages */
 body.note-page .minimal-nav,
 body.note-page .minimal-content {

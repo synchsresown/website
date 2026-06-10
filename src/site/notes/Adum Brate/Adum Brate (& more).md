@@ -4,7 +4,7 @@
 
 ![AB_web.jpeg](/img/user/Objects/Image/AB_web.jpeg)
 
-- [Projects](/projects/)
-- [Soundcloud](https://soundcloud.com/adum_brate)
-- [Youtube](https://www.youtube.com/@a-mute-bard)
-- [Buckets](https://bucketsmusic.org/)
+- ⛟ [Projects](/projects/)
+- ⛫ [Soundcloud](https://soundcloud.com/adum_brate)
+- ⛱ [Youtube](https://www.youtube.com/@a-mute-bard)
+- ⛰ [Buckets](https://bucketsmusic.org/)
