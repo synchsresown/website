@@ -568,6 +568,22 @@ module.exports = function(eleventyConfig) {
     return str && parsed.toString();
   });
 
+  eleventyConfig.addTransform("minimal-lazy-images", function(str) {
+    if (!isMarkdownPage(this.page.inputPath)) {
+      return str;
+    }
+    const parsed = parse(str);
+    for (const imageTag of parsed.querySelectorAll(".minimal-content img, main.minimal-content img")) {
+      if (!imageTag.getAttribute("loading")) {
+        imageTag.setAttribute("loading", "lazy");
+      }
+      if (!imageTag.getAttribute("decoding")) {
+        imageTag.setAttribute("decoding", "async");
+      }
+    }
+    return str && parsed.toString();
+  });
+
   eleventyConfig.addTransform("table", function(str) {
     if (!isMarkdownPage(this.page.inputPath)) {
       return str;

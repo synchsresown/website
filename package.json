@@ -12,7 +12,7 @@
         "build:sass": "sass src/site/styles:dist/styles --style compressed",
         "get-theme": "node src/site/get-theme.js",
         "build": "npm-run-all get-theme build:sass build:eleventy",
-        "postbuild": "cp -r src/site/img dist/ 2>/dev/null || true"
+        "postbuild": "node scripts/optimize-images.js"
     },
     "keywords": [],
     "author": "",
