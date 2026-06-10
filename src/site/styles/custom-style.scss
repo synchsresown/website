@@ -1,79 +1,274 @@
 :root {
-    --font-default: "Times New Roman", Times, serif;
-    --font-interface: "Times New Roman", Times, serif;
-    --font-text: "Times New Roman", Times, serif;
+    --text-normal: #000;
+    --link-color: #000;
+    --link-color-hover: #000;
+    --background-primary: #fff;
+    --site-gutter: 1.5rem;
+    --list-column: 34rem;
+    --media-width: 700px; /* Bandcamp size=large embed width */
+    --column-gap: 4rem;
+    --desktop-min: 900px;
 }
 
-body,
-body.theme-dark,
-body.theme-light,
-body .content,
-body .cm-s-obsidian,
-body .content h1,
-body .content h2,
-body .content h3,
-body .content h4,
-body .content h5,
-body .content h6,
-body .content p,
-body .content li,
-body .content td,
-body .content th {
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body.minimal-site,
+body.minimal-site * {
     font-family: "Times New Roman", Times, serif !important;
 }
 
-body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+html,
+body.minimal-site {
+    background-color: #fff !important;
+    color: #000 !important;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    overflow-x: hidden;
+}
 
-    /* Markdown table formatting (home page and notes) */
-    .content table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 1rem 0;
-        font-size: 0.95rem;
-    }
-    .content table thead tr {
-        border-bottom: 2px solid var(--background-modifier-border, rgba(255, 255, 255, 0.15));
-    }
-    .content table th,
-    .content table td {
-        padding: 0.5rem 0.75rem;
-        text-align: left;
-        vertical-align: top;
-    }
-    .content table th {
-        font-weight: 600;
-        color: var(--text-muted, #999);
-    }
-    .content table tbody tr {
-        border-bottom: 1px solid var(--background-modifier-border, rgba(255, 255, 255, 0.08));
-    }
-    .content table tbody tr:hover {
-        background: var(--background-modifier-hover, rgba(255, 255, 255, 0.04));
-    }
-    .content table a {
-        color: var(--link-color, var(--text-accent));
-    }
+body.minimal-site h1,
+body.minimal-site h2,
+body.minimal-site h3,
+body.minimal-site h4,
+body.minimal-site h5,
+body.minimal-site h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1rem 0 0.5rem;
+    color: #000;
+}
 
-    /* Responsive iframes (SoundCloud, Bandcamp, etc.) – no horizontal overflow on mobile */
-    .content iframe {
-        max-width: 100%;
+body.minimal-site h1 {
+    font-size: 16px;
+    margin: 0 0 1rem;
+}
+
+body.minimal-site p,
+body.minimal-site li,
+body.minimal-site td,
+body.minimal-site th {
+    font-size: 16px;
+    color: #000;
+}
+
+body.minimal-site a {
+    color: #000;
+    text-decoration: underline;
+}
+
+body.minimal-site a:visited {
+    color: #000;
+}
+
+body.minimal-site ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body.minimal-site li {
+    margin: 0.25rem 0;
+}
+
+/* Home page — align with projects list column */
+body.home-page .minimal-content {
+    max-width: var(--list-column);
+    margin: 0;
+    padding: 2.5rem var(--site-gutter) 4rem;
+}
+
+body.home-page .minimal-content img {
+    max-width: 360px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 0 1.5rem;
+}
+
+body.home-page .minimal-content p:has(> img:only-child) {
+    margin: 0 0 1.5rem;
+}
+
+body.home-page .minimal-content p:has(> img:only-child) img {
+    margin-bottom: 0;
+}
+
+/* Note pages */
+body.note-page .minimal-nav,
+body.note-page .minimal-content {
+    max-width: var(--media-width);
+    margin: 0;
+    padding-left: var(--site-gutter);
+    padding-right: var(--site-gutter);
+    padding-bottom: 4rem;
+}
+
+body.note-page .minimal-nav {
+    padding-top: 1.25rem;
+    padding-bottom: 0;
+}
+
+body.note-page .minimal-content {
+    padding-top: 0;
+}
+
+body.note-page .minimal-nav a {
+    text-decoration: none;
+}
+
+body.note-page .minimal-nav a:hover {
+    text-decoration: underline;
+}
+
+body.note-page .minimal-content img {
+    max-width: var(--media-width);
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body.note-page .minimal-content iframe {
+    max-width: var(--media-width);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body.note-page .minimal-content blockquote {
+    margin: 1rem 0;
+    padding-left: 1rem;
+    border-left: 1px solid #000;
+    color: #000;
+}
+
+/* Projects page — mobile: list only, normal link navigation */
+body.projects-page .projects-layout {
+    display: block;
+}
+
+body.projects-page .projects-panel {
+    display: none;
+}
+
+body.projects-page .minimal-nav {
+    margin: 0;
+    padding: 1.25rem var(--site-gutter) 0;
+    font-size: 16px;
+}
+
+body.projects-page .minimal-nav a {
+    text-decoration: none;
+}
+
+body.projects-page .minimal-nav a:hover {
+    text-decoration: underline;
+}
+
+body.projects-page .projects-list {
+    max-width: var(--list-column);
+    margin: 0;
+    padding: 2.5rem var(--site-gutter) 4rem;
+}
+
+body.projects-page .projects-list > div {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+body.projects-page .projects-list table {
+    width: 100%;
+    min-width: 18rem;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+body.projects-page .projects-list th,
+body.projects-page .projects-list td {
+    padding: 0.25rem 0.5rem 0.25rem 0;
+    text-align: left;
+    vertical-align: top;
+    border: none;
+}
+
+body.projects-page .projects-list th {
+    font-weight: bold;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+body.projects-page .projects-list tbody tr {
+    border-bottom: none;
+}
+
+body.projects-page .projects-list a.is-active {
+    font-weight: bold;
+}
+
+body.projects-page .projects-panel-empty,
+body.projects-page .projects-panel-loading {
+    color: #000;
+    font-style: italic;
+}
+
+body.projects-page .projects-panel img,
+body.projects-page .projects-panel iframe {
+    max-width: var(--media-width);
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+body.projects-page .projects-panel img {
+    height: auto;
+    margin: 0 0 1rem;
+}
+
+@media (min-width: 900px) {
+    body.projects-page .projects-layout {
+        display: grid;
+        grid-template-columns: var(--list-column) var(--media-width);
+        grid-template-areas: "list panel";
+        gap: var(--column-gap);
+        align-items: start;
         width: 100%;
+        max-width: none;
+        margin: 0;
+        padding: 0 var(--site-gutter) 4rem var(--site-gutter);
         box-sizing: border-box;
     }
-    .content > iframe + div {
-        max-width: 100%;
-        overflow-wrap: break-word;
-        word-break: break-word;
+
+    body.projects-page .projects-list {
+        grid-area: list;
+        max-width: var(--list-column);
+        width: var(--list-column);
+        margin: 0;
+        padding: 2.5rem 0 2rem 0;
+    }
+
+    body.projects-page .projects-list > div {
+        overflow-x: visible;
+    }
+
+    body.projects-page .projects-panel {
+        display: block;
+        grid-area: panel;
+        width: var(--media-width);
+        max-width: var(--media-width);
+        margin: 0;
+        padding: 2.5rem var(--site-gutter) 2rem 0;
+    }
+
+    body.projects-page .projects-list a {
+        text-decoration: none;
+    }
+
+    body.projects-page .projects-list a:hover,
+    body.projects-page .projects-list a.is-active {
+        text-decoration: underline;
     }
 }

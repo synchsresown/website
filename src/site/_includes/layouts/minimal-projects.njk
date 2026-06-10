@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ meta.mainLanguage }}">
+  <head>
+    <title>Projects — {{ meta.siteNameHeader or "Adum Brate (& more)" }}</title>
+    {% include "components/minimal-pageheader.njk" %}
+    <script>
+      (function () {
+        var mq = window.matchMedia("(min-width: 900px)");
+        function loadPanelScript() {
+          if (document.querySelector("[data-projects-panel]")) return;
+          var script = document.createElement("script");
+          script.src = "/scripts/projects-panel.js";
+          script.defer = true;
+          script.setAttribute("data-projects-panel", "");
+          document.head.appendChild(script);
+        }
+        if (mq.matches) loadPanelScript();
+        mq.addEventListener("change", function (event) {
+          if (event.matches) loadPanelScript();
+        });
+      })();
+    </script>
+  </head>
+  <body class="theme-light minimal-site projects-page">
+    <nav class="minimal-nav"><a href="/">← Home</a></nav>
+    <div class="projects-layout">
+      <section class="projects-list">
+        <h1>Projects</h1>
+        {{ content | hideDataview | taggify | link | safe }}
+      </section>
+      <section class="projects-panel" id="projects-panel" aria-live="polite">
+        <p class="projects-panel-empty">Select a project from the list.</p>
+      </section>
+    </div>
+  </body>
+</html>

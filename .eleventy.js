@@ -397,6 +397,19 @@ module.exports = function(eleventyConfig) {
       dataViewJsLink.innerHTML = innerHTML;
     }
 
+    for (const internalLink of parsed.querySelectorAll("a.internal-link")) {
+      internalLink.removeAttribute("data-href");
+      internalLink.removeAttribute("data-tooltip-position");
+      internalLink.removeAttribute("aria-label");
+      internalLink.removeAttribute("data-note-icon");
+      if (internalLink.getAttribute("target") === "") {
+        internalLink.removeAttribute("target");
+      }
+      if (internalLink.getAttribute("rel") === "noopener nofollow") {
+        internalLink.removeAttribute("rel");
+      }
+    }
+
     return str && parsed.toString();
   });
 

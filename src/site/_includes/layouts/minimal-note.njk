@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ meta.mainLanguage }}">
+  <head>
+    <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
+    {% include "components/minimal-pageheader.njk" %}
+  </head>
+  <body class="theme-light minimal-site note-page">
+    <nav class="minimal-nav"><a href="/projects/">← Projects</a></nav>
+    <main class="minimal-content">
+      <h1>{{ title or page.fileSlug }}</h1>
+      {{ content | hideDataview | taggify | link | safe }}
+    </main>
+  </body>
+</html>

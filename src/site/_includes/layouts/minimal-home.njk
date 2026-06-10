@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ meta.mainLanguage }}">
+  <head>
+    <title>{{ meta.siteNameHeader or "Adum Brate (& more)" }}</title>
+    {% include "components/minimal-pageheader.njk" %}
+  </head>
+  <body class="theme-light minimal-site home-page">
+    <main class="minimal-content">
+      {{ content | hideDataview | taggify | link | safe }}
+    </main>
+  </body>
+</html>

@@ -16,14 +16,25 @@ function cleanPermalinkFromPath(inputPath) {
 module.exports = {
   eleventyComputed: {
     layout: (data) => {
-      if (data.tags.indexOf("gardenEntry") != -1) {
-        return "layouts/index.njk";
+      const tags = data.tags || [];
+      if (tags.includes("gardenEntry")) {
+        return "layouts/minimal-home.njk";
+      }
+      if (tags.includes("projectsEntry")) {
+        return "layouts/minimal-projects.njk";
+      }
+      if (data.page?.inputPath && data.page.inputPath.includes("/Objects/")) {
+        return "layouts/minimal-note.njk";
       }
       return "layouts/note.njk";
     },
     permalink: (data) => {
-      if (data.tags.indexOf("gardenEntry") != -1) {
+      const tags = data.tags || [];
+      if (tags.includes("gardenEntry")) {
         return "/";
+      }
+      if (tags.includes("projectsEntry")) {
+        return "/projects/";
       }
       const fromPath = cleanPermalinkFromPath(data.page?.inputPath || "");
       return fromPath || data.permalink || undefined;
