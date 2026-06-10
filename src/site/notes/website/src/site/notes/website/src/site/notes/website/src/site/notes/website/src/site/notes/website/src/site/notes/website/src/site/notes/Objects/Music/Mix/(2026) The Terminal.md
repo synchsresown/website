@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Mix/(2026) The Terminal.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/mix/2026-the-terminal/","title":"Ikr. Imprint w/Adum Brate: The Terminal"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Mix/(2026) The Terminal.md","permalink":"/src/site/notes-objects/music/mix/2026-the-terminal/","title":"Ikr. Imprint w/Adum Brate: The Terminal"}
 ---
 
 

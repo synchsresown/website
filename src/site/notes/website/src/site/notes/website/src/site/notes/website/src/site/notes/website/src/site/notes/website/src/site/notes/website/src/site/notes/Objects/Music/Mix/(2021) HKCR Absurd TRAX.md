@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Mix/(2021) HKCR Absurd TRAX.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/mix/2021-hkcr-absurd-trax/","title":"HKCR: Absurd TRAX w/ Crown Shyness"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Mix/(2021) HKCR Absurd TRAX.md","permalink":"/src/site/notes-objects/music/mix/2021-hkcr-absurd-trax/","title":"HKCR: Absurd TRAX w/ Crown Shyness"}
 ---
 
 

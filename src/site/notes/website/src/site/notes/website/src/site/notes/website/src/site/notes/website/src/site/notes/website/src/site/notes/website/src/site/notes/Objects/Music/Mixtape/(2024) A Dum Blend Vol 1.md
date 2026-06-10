@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Mixtape/(2024) A Dum Blend Vol 1.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/mixtape/2024-a-dum-blend-vol-1/","title":"A Dum Blend Vol 1"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Mixtape/(2024) A Dum Blend Vol 1.md","permalink":"/src/site/notes-objects/music/mixtape/2024-a-dum-blend-vol-1/","title":"A Dum Blend Vol 1"}
 ---
 
 

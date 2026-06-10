@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Single/(2024) Eaten Alive.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/single/2024-eaten-alive/","title":"Eaten Alive"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Single/(2024) Eaten Alive.md","permalink":"/src/site/notes-objects/music/single/2024-eaten-alive/","title":"Eaten Alive"}
 ---
 
 

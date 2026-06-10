@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/Mix/(2022) A&A - Adum Brate.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/mix/2022-a-and-a-adum-brate/","title":"A&A: Adum Brate (02)"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/Mix/(2022) A&A - Adum Brate.md","permalink":"/src/site/notes-objects/music/mix/2022-a-and-a-adum-brate/","title":"A&A: Adum Brate (02)"}
 ---
 
 

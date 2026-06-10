@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"src/site/noteswebsite/src/site/notes/Objects/Music/EP/(2021) Credence.md","permalink":"/src/site/noteswebsite/src/site/notes/objects/music/ep/2021-credence/","title":"Credence"}
+{"dg-publish":true,"dg-path":"src/site/notesObjects/Music/EP/(2021) Credence.md","permalink":"/src/site/notes-objects/music/ep/2021-credence/","title":"Credence"}
 ---
 
 
