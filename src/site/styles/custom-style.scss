@@ -137,10 +137,11 @@ body.note-page .minimal-nav a:hover {
 }
 
 body.note-page .minimal-content img {
-    max-width: var(--media-width);
-    width: 100%;
+    /* Natural size, capped at the media column; small images don't stretch */
+    max-width: min(100%, var(--media-width));
     height: auto;
-    display: block;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 body.note-page .minimal-content iframe {
@@ -225,7 +226,6 @@ body.projects-page .projects-panel-loading {
     font-style: italic;
 }
 
-body.projects-page .projects-panel img,
 body.projects-page .projects-panel iframe {
     max-width: var(--media-width);
     width: 100%;
@@ -234,7 +234,11 @@ body.projects-page .projects-panel iframe {
 }
 
 body.projects-page .projects-panel img {
+    /* Natural size, capped at the panel width; small images don't stretch */
+    max-width: min(100%, var(--media-width));
     height: auto;
+    display: inline-block;
+    vertical-align: middle;
     margin: 0 0 1rem;
 }
 
