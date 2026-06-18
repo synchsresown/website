@@ -7,6 +7,8 @@
   <body class="theme-light minimal-site home-page">
     <main class="minimal-content">
       {{ content | hideDataview | taggify | link | safe }}
+      {% include "components/home-subscribe.njk" %}
     </main>
+    <script src="/scripts/home-subscribe.js" defer></script>
   </body>
 </html>

@@ -100,13 +100,59 @@ body.home-page .minimal-content p:has(> img:only-child) img {
 }
 
 body.home-page .minimal-content li:nth-child(2),
-body.home-page .minimal-content li:nth-child(4) {
+body.home-page .minimal-content li:nth-child(5) {
     margin-top: 1.4em;
 }
 
-body.home-page .minimal-content li:last-child a,
-body.home-page .minimal-content li:last-child a:visited {
+body.home-page .minimal-content li:nth-child(5) a,
+body.home-page .minimal-content li:nth-child(5) a:visited {
     color: red;
+}
+
+body.home-page .home-subscribe {
+    margin-top: 0.25rem;
+}
+
+body.home-page .home-subscribe .email-signup {
+    margin: 0;
+}
+
+body.home-page .home-subscribe-honeypot {
+    display: none;
+}
+
+body.home-page .home-subscribe-frame {
+    display: none;
+    width: 0;
+    height: 0;
+    border: 0;
+}
+
+body.home-page .home-subscribe-email {
+    background-color: #eceff4;
+    padding: 5px;
+    border: 1px solid #000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #000;
+    max-width: 100%;
+}
+
+body.home-page .home-subscribe-submit {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #000;
+    background: none;
+    border: none;
+    padding: 0;
+    margin-left: 0.25rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+body.home-page .home-subscribe-status {
+    margin: 0.5rem 0 0;
+    font-style: italic;
 }
 
 /* Note pages */

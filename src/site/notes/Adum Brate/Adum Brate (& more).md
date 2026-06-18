@@ -7,5 +7,7 @@
 
 - ⛟ [Projects](/projects/)
 - ⛫ [Soundcloud](https://soundcloud.com/adum_brate)
-- ⛱ [Youtube](https://www.youtube.com/@a-mute-bard)
-- ⛰ [Buckets](https://bucketsmusic.org/)
+- ⛫ [Youtube](https://www.youtube.com/@a-mute-bard)
+- ⛫ [Blog](https://adumbrate.bearblog.dev)
+
+- ⛟ [Buckets](https://bucketsmusic.org/)
