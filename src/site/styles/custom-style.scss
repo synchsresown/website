@@ -99,9 +99,21 @@ body.home-page .minimal-content p:has(> img:only-child) img {
     margin-bottom: 0;
 }
 
-body.home-page .minimal-content li:nth-child(2),
+body.home-page .minimal-content li:nth-child(2) {
+    margin: 1.4em 0 0;
+}
+
+body.home-page .minimal-content li:nth-child(3),
+body.home-page .minimal-content li:nth-child(4) {
+    margin: 0;
+}
+
 body.home-page .minimal-content li:nth-child(5) {
     margin-top: 1.4em;
+}
+
+body.home-page .minimal-content li > p {
+    margin: 0;
 }
 
 body.home-page .minimal-content li:nth-child(5) a,
@@ -110,7 +122,7 @@ body.home-page .minimal-content li:nth-child(5) a:visited {
 }
 
 body.home-page .home-subscribe {
-    margin-top: 0.25rem;
+    margin-top: 1.4em;
 }
 
 body.home-page .home-subscribe .email-signup {
