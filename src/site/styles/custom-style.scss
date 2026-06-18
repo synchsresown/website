@@ -125,19 +125,8 @@ body.home-page .home-subscribe {
     margin-top: 1.4em;
 }
 
-body.home-page .home-subscribe .email-signup {
+body.home-page .home-subscribe .embeddable-buttondown-form {
     margin: 0;
-}
-
-body.home-page .home-subscribe-honeypot {
-    display: none;
-}
-
-body.home-page .home-subscribe-frame {
-    display: none;
-    width: 0;
-    height: 0;
-    border: 0;
 }
 
 body.home-page .home-subscribe-email {
@@ -160,11 +149,6 @@ body.home-page .home-subscribe-submit {
     margin-left: 0.25rem;
     text-decoration: underline;
     cursor: pointer;
-}
-
-body.home-page .home-subscribe-status {
-    margin: 0.5rem 0 0;
-    font-style: italic;
 }
 
 /* Note pages */

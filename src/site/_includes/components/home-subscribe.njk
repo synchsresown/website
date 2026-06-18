@@ -1,10 +1,12 @@
 <div class="home-subscribe">
-  <form class="email-signup" action="https://adumbrate.bearblog.dev/email-subscribe/" method="post" target="bear-subscribe-frame">
-    <input type="text" name="name" autocomplete="off" autocorrect="off" tabindex="-1" aria-hidden="true" class="home-subscribe-honeypot">
-    <input type="text" name="confirm" autocomplete="off" autocorrect="off" tabindex="-1" aria-hidden="true" class="home-subscribe-honeypot">
-    <input type="email" placeholder="Email address..." name="email" required autocomplete="email" class="home-subscribe-email">
+  <form
+    action="https://buttondown.com/api/emails/embed-subscribe/BucketsMusic"
+    method="post"
+    target="_blank"
+    class="embeddable-buttondown-form"
+  >
+    <input type="hidden" name="embed" value="1">
+    <input type="email" name="email" id="bd-email" required autocomplete="email" class="home-subscribe-email">
     <input type="submit" value="Subscribe" class="home-subscribe-submit">
   </form>
-  <iframe name="bear-subscribe-frame" title="Subscribe" class="home-subscribe-frame" tabindex="-1" aria-hidden="true"></iframe>
-  <p class="home-subscribe-status" hidden></p>
 </div>
