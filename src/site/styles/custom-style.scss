@@ -103,6 +103,10 @@ body.home-page .minimal-content li > p {
     margin: 0;
 }
 
+body.home-page .minimal-content li:has(a[href="/projects/"]) + li {
+    margin-top: 1.4em;
+}
+
 body.home-page .minimal-content li:has(a[href*="bucketsmusic.org"]) {
     margin-top: 1.4em;
 }
