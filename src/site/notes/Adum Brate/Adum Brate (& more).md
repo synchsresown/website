@@ -7,6 +7,7 @@
 
 - ⛟ [Projects](/projects/)
 - ⛫ [Soundcloud](https://soundcloud.com/adum_brate)
+- ⛫ [Bandcamp](https://adumbrate.bandcamp.com)
 - ⛫ [Youtube](https://www.youtube.com/@a-mute-bard)
 - ⛫ [Blog](https://adumbrate.bearblog.dev)
 
